@@ -58,7 +58,7 @@ h2{
 
 h3{
 	font-family: 'NeubauGrotesk-75Fett';
-	font-size: 432x;
+	font-size: 43px;
 	margin: 0px;
 	text-transform: uppercase;
 }
@@ -82,27 +82,27 @@ p{
 }
 
 
-.News{
+.news{
 	color: $news;
 }
 
-.Spotlight{
+.spotlight{
 	color: $spotlight;
 }
 
-.Opinion{
+.opinion{
 	color:  $opinion;
 }
 
-.Lifestyle{
+.lifestyle{
 	color: $lifestyle;
 }
 
-.Events{
+.events{
 	color: $events;	
 }
 
-.Inspiration{
+.inspiration{
 	color: $inspiration;
 }
 
@@ -140,8 +140,19 @@ p{
 	} 
 
 /* HEADER */
+html{
+	margin: 0;
+	padding: 0;
+}
 
 body{
+margin: 0;
+	padding: 0;
+}
+
+#menu{
+	
+	margin: 5px;
 
 }
 
@@ -159,6 +170,7 @@ body{
 #blog-title{
 	float: left;
 	padding-left: 85px;
+	padding-right: 200px;
 	
 }
 
@@ -183,13 +195,15 @@ body{
 /* NAV */
 
 .nav{
-	padding-left: 200px;
+	float:left;
+	width: 600px;
+	margin-bottom: 20px;
 }
 
 .nav ul{
 	list-style-type: none;
 	text-align: center;
-	padding-top: 3px;
+
 }
 
 .nav ul li { 
@@ -197,7 +211,7 @@ body{
 	padding: 0 20px 0 20px;
 	margin-bottom: 10px;
 	padding-bottom: 10px;
-	margin-left: -4px;
+	margin-left: -5px;
 
 }
 
@@ -265,11 +279,13 @@ body{
 /* FEATURE */
 
 #feature {
-  padding: 40px 0 20px 85px;
-  background-image: url(../images/wind-farm-purple.png);
-  background-repeat: true;
-  width: 1870px;
+  width: 2500px;
   min-height: 150px;
+}
+
+#feature-bg {
+  padding: 40px 0 20px 85px;
+  
 }
 
 #feature-title {
@@ -293,11 +309,12 @@ body{
 /* POST FEATURE */
 #post-wrapper {
   margin: 40px 0 0 85px;
-  width: 100%;
-  white-space: nowrap;
-  position: absolute;
+  width: 2500px;
+ 
+ 
 }
 .post{
+	vertical-align: top;
 	padding-right: 40px;
 	display: inline-block;
 	width: 300px;
@@ -305,6 +322,7 @@ body{
 
 .post img{
 	position: relative;
+	width: 260px;
 }
 
 .post h3{
@@ -326,27 +344,27 @@ body{
 }
 
 
-.post:hover .News-bar{
+.post:hover .news-bar{
 	@include hover-colors($news);
 }
 
-.post:hover .Spotlight-bar{
+.post:hover .spotlight-bar{
 	@include hover-colors($spotlight);
 }
 
-.post:hover .Opinion-bar{
+.post:hover .opinion-bar{
 	@include hover-colors($opinion);
 }
 
-.post:hover .Lifestyle-bar{
+.post:hover .lifestyle-bar{
 	@include hover-colors($lifestyle);
 }
 
-.post:hover .Events-bar{
+.post:hover .events-bar{
 	@include hover-colors($events);
 }
 
-.post:hover .Inspiration-bar{
+.post:hover .inspiration-bar{
 	@include hover-colors($inspiration);
 }
 

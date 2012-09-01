@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="en"> 
 
 <head>
 	
@@ -9,9 +9,9 @@
    <meta charset="<?php bloginfo('charset'); ?>" />
    <meta name="generator" content="Wordpress <?php bloginfo('version'); ?>" />
    <meta name="description" content="<?php bloginfo('description'); ?>">
+  <!-- <link rel="stylesheet" href="http://localhost/all-nighter/wp-content/themes/newspaper-2/foundation.css" type="text/css" media="screen" /> -->
    <link rel="stylesheet" href="<?php bloginfo("stylesheet_url"); ?>" type="text/css" media="screen" />
-	<link rel="stylesheet" href="<?php bloginfo('url') ?>/wp-content/themes/newspaper/jquery.simplyscroll-1.0.4.css" media="all" 
-	type="text/css">
+   
 	<link rel="shortcut icon" href="<?php bloginfo('url') ?>/wp-content/themes/newspaper/images/favicon.ico">
 	<!--Type Kit-->
 		
@@ -52,7 +52,7 @@
 </div>
 
 
-<div class="feature">
+<div id="feature">
 	
 		<?php
 		
@@ -93,15 +93,14 @@
          $wp_query->in_the_loop = true;
    ?>
 
-		<!-- Delete the following line of code when we go live with new articles!-->
 	
 		
 	
 	<!-- This first part gets the large image for the feature article. Meta data 'wide feature' must be uploaded for it to work.  -->
-      <div style="background-image: url('<?php echo get_post_meta($post->ID, 'wide_feature', true)?>');"> 
+      <div id='feature-bg' style="background-image: url('<?php echo get_post_meta($post->ID, 'wide_feature', true)?>');"> 
 	
 		<!-- It looks like this part puts the author name up and then links to people's pages if necesssary-->
-         <div id="feature" <?php post_class(); ?>>
+         <div  <?php post_class(); ?>>
          	<div id="feature-title">
 			<?php $authorNicename = get_the_author_meta('user_nicename'); ?>
 		      <?php
@@ -142,15 +141,15 @@
         <?php endwhile; ?>
 
 </div>
+</div>
 
 
+	
 
 
-
-<div id= 'post-wrapper'>
 
 	<!--The section for the little stories-->
-   
+<div id= 'post-wrapper'>
    <?php
 
       /* Uses default query */ 
@@ -192,7 +191,7 @@
    			return $content;
 	}?>
  
-	
+
    <?php 
       /*CURRENT STORIES (aka top six articles) LOOP*/
       /*$seen[] stores the IDs of all six posts, avoids repetition later on*/
@@ -207,8 +206,9 @@
    
    
    
-   
-   <div class='post' <?php post_class(); ?>>
+
+  <div class="post<?php the_category_unlinked(' '); ?>">
+  	 <div class= 'news-bar'></div>  
       <?php if(get_post_meta($post->ID, 'thumbnail', true)):?>
 				<?php
 				if (! in_category(array('Columns'))) {	?>
@@ -253,10 +253,10 @@
 
       	<?php
 		if (! in_category(array('Columns'))) {	?>
-			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+			<h3 <?php the_category_unlinked(' '); ?><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 		<?php
 		}else{?>
-			<h2><?php if(in_category('tylerdibiasio')){?>
+			<h3 <?php the_category_unlinked(' '); ?><?php if(in_category('tylerdibiasio')){?>
 		      <a href="<?php bloginfo('url')?>/category/tylerdibiasio/">
 			<?php
 			}elseif(in_category('mishatownsend')){?>
@@ -278,9 +278,8 @@
 			elseif(in_category('twogirls')){?>
 			 	<a href="<?php bloginfo('url')?>/category/twogirls\">
 		
-			<?php }?><?php the_title(); ?></a></h2>
-		<?php	
-		}?>
+			<?php }?><?php the_title(); ?></a></h3 <?php the_category_unlinked(' '); ?><?php }?>
+			<p id= 'author'><?php the_author() ?> @ <?php the_time('Y/m/d'); ?></p>
       <?php
       $string = get_the_content_our_way('Read More >>', FALSE);
                echo($string);
@@ -289,10 +288,9 @@
  
       
       
-      <span class="commentNumber"><a href="<?php the_permalink(); ?>"><?php comments_number('(+)','(1)','(%)'); ?></a></span>
+     
       
    </div>
-      
    
       
    <?php 
@@ -301,6 +299,7 @@
    endwhile; ?>   
    
 </section>
+</div>
 </div>
 
 

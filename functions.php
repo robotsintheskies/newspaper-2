@@ -1,5 +1,16 @@
 <?php
 
+function the_category_unlinked($separator = ' ') {
+    $categories = (array) get_the_category();
+    
+    $thelist = '';
+    foreach($categories as $category) {    // concate
+        $thelist .= $separator . $category->category_nicename;
+    }
+    
+    echo $thelist;
+}
+
 
 	if ( function_exists('register_sidebar') )
 		register_sidebar(array('name'=>'ericasSidebar',
