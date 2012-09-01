@@ -1,0 +1,217 @@
+/*
+ * simplyScroll 1.0.3 - a scroll-tastic jQuery plugin
+ *
+ * http://logicbox.net/jquery/simplyscroll
+ * http://logicbox.net/blog/simplyscroll-jquery-plugin
+ * http://plugins.jquery.com/project/simplyScroll
+ *
+ * Copyright (c) 2009 Will Kelly - http://logicbox.net
+ *
+ * Dual licensed under the MIT (MIT-LICENSE.txt)
+ * and GPL (GPL-LICENSE.txt) licenses.
+ *
+ * Last revised: 03/07/2009 21:13
+ *
+ */
+
+/* Default/Master classes 
+
+Example markup format (for horizontal scroller)
+Note all DIVs are generated and should not be hard-coded
+
+<div class="your-custom-class simply-scroll-container">
+	<div class="simply-scroll-btn simply-scroll-btn-left"></div>
+	<div class="simply-scroll-btn simply-scroll-btn-right"></div>
+	<div class="simply-scroll-clip">
+		<ul class="simply-scroll-list">
+			<li>...</li>
+			...
+		</ul>
+	</div>
+</div>
+
+
+*/
+
+.simply-scroll-container { /* Container DIV - automatically generated */
+	position: relative;
+}
+
+	.simply-scroll-clip { /* Clip DIV - automatically generated */
+		position: relative;
+		overflow: hidden;
+		z-index: 2;
+	}
+
+/*	.simply-scroll-list { // UL/OL/DIV - the element that simplyScroll is inited on
+		position: absolute;
+		top: 0px;
+		left: 0;
+		z-index: 1;
+		overflow: hidden;
+		margin: 0;
+		padding: 0 0 0px 0;
+		list-style: none;
+	}*/
+	
+		.simply-scroll-list li {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+	
+		.simply-scroll-list li img {
+			border: none;
+			display: block;
+		}
+	
+
+/* Custom class modifications - override classees
+
+.simply-scroll is default
+
+*/
+
+.simply-scroll { /* Customisable base class for style override DIV */
+	width: 250px;
+	height: 440px;
+	margin-bottom: 1em;
+}
+
+	.simply-scroll .simply-scroll-clip {
+		width: 250px;
+		height: 440px;
+	}
+	
+		.simply-scroll .simply-scroll-list {}
+		
+		.simply-scroll .simply-scroll-list li {
+			float: left;
+			/*width: 290px;
+			height: 200px;*/
+		}
+		.simply-scroll .simply-scroll-list li img {}
+	
+	.simply-scroll .simply-scroll-btn {
+		
+		
+	}
+	
+	.simply-scroll .simply-scroll-btn-left {}
+	.simply-scroll .simply-scroll-btn-left.disabled {}
+	.simply-scroll .simply-scroll-btn-left:hover {}
+	
+	.simply-scroll .simply-scroll-btn-right {}
+	.simply-scroll .simply-scroll-btn-right.disabled {}
+	.simply-scroll .simply-scroll-btn-right:hover {}
+	
+	.simply-scroll-btn-up {
+		position: absolute;
+		background-image: url(images/scroll_up.png);
+		width: 120px;
+		height: 34px;
+		z-index:3;
+		cursor: pointer;
+		bottom: -50px;
+	
+		right: 0;
+		
+	}
+	.simply-scroll .simply-scroll-btn-up.disabled {}
+	.simply-scroll-btn-up:hover {
+		background-image: url(images/scroll_up.png);
+		background-position: 0 -34px;
+		background-repeat: no-repeat;
+		
+	}
+	
+	
+	.simply-scroll-btn-down {
+		position: absolute;
+		background-image: url(images/scroll_down.png);
+		width: 120px;
+		height: 34px;
+		z-index:3;
+		cursor: pointer;
+		bottom: -50px;
+		left: 0px;
+	}
+	.simply-scroll .simply-scroll-btn-down.disabled {
+		background-image: url(images/scroll_down_nonhover.png);
+	}
+	.simply-scroll-btn-down:hover {
+		background-image: url(images/scroll_down.png);
+		background-position: 0 -34px;
+		background-repeat: no-repeat;
+	}
+	
+
+
+/* Vertical scroller example */
+
+.vert { // wider than clip to position buttons to side 
+	width: 250px;
+	height: 440px;
+	/*margin-bottom: 1.5em;*/
+	/*position: relative;*/
+}
+
+	.vert .simply-scroll-clip {
+	width: 290px;
+		height: 440px;
+	}
+	
+		.vert .simply-scroll-list {}
+		
+		.vert .simply-scroll-list li {
+			width: 250px;
+			/*height: 200px;*/
+		}
+		.vert .simply-scroll-list li img {}
+	
+	.vert .simply-scroll-btn {}
+
+	.vert .simply-scroll-btn-up { // modified btn pos 
+		/*right: 0;
+		top: 0;*/
+	}
+	.vert .simply-scroll-btn-up.disabled {}
+	.vert .simply-scroll-btn-up:hover {}
+	
+	.vert .simply-scroll-btn-down { /* modified btn pos */
+		/*right: 0;
+		top: 52px;*/
+	}
+	.vert .simply-scroll-btn-down.disabled {}
+	.vert .simply-scroll-btn-down:hover {}
+	
+	/* NOTE left-right classes wouldn't be needed on vertical scroller */
+	
+/* Flickr example 
+
+Images created from a data source use simpler format i.e.
+
+<div>
+	<img/>
+	<img/>
+	...
+</div>
+
+*/
+
+.flickr {
+	width: 576px;
+	height: 180px;
+	margin-bottom: 1.5em;
+}
+
+	.flickr .simply-scroll-clip {
+		width: 576px;
+		height: 180px;
+	}
+		
+		.flickr .simply-scroll-list img {
+			float: left;
+			border: none;
+			display: block;
+		}
