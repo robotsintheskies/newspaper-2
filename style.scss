@@ -1,0 +1,418 @@
+/*   
+Theme Name: All-Nighter
+Theme URI: http://all-nighter.com/
+Description: A Monthly RISD online publication.
+Author: Callil Capuozzo and Phil Cao
+Author URI: callil.com and phillipecao.cargosollective.com
+Version: 1.0
+Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+*/
+
+/* LESS CSS VARIABLES */
+
+
+
+$news: #372662;
+
+$spotlight: #ed1457;
+
+$opinion: #f7923f;
+
+$lifestyle: #53c2bc;
+
+$events: #00b26e;
+
+$inspiration: #f7be3c;
+
+@mixin nav-spacing($color) {
+	border-top: solid $color;
+	border-width: 7px 0 0  0;
+}
+
+@mixin hover-colors($color) {
+	width:260px;
+	height: 25px;
+	position: absolute;
+	z-index: 10;
+	background-color: $color;
+}
+
+
+
+
+/* GLOBAL */
+h1{
+	font-family: 'NeubauGrotesk-85Schwer';
+	font-size: 50px;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+h2{
+	font-family: 'NeubauGrotesk-75Fett';
+	font-size: 57px;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+h3{
+	font-family: 'NeubauGrotesk-75Fett';
+	font-size: 432x;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+h4{
+	font-family: 'Georgia';
+	font-size: 24px;
+	font-style: italic;
+}
+
+h5{
+	font-family: 'NeubauGrotesk-85Schwer';
+	font-size: 60px;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+p{
+	font-family: 'Georgia';
+	font-size: 14px;
+}
+
+
+.News{
+	color: $news;
+}
+
+.Spotlight{
+	color: $spotlight;
+}
+
+.Opinion{
+	color:  $opinion;
+}
+
+.Lifestyle{
+	color: $lifestyle;
+}
+
+.Events{
+	color: $events;	
+}
+
+.Inspiration{
+	color: $inspiration;
+}
+
+
+
+/* FONTS */
+@font-face{
+		font-family:"NeubauGrotesk-35Leicht";
+		src:url('fonts/NeubauGrotesk-35Leicht.otf');
+	}
+
+@font-face{
+		font-family:"NeubauGrotesk-45Mager";
+		src:url('fonts/NeubauGrotesk-45Mager.otf');
+	}
+
+@font-face{
+		font-family:"NeubauGrotesk-55Normal";
+		src:url('fonts/NeubauGrotesk-55Normal.otf');
+	}
+
+@font-face{
+		font-family:"NeubauGrotesk-65Halbfett";
+		src:url('fonts/NeubauGrotesk-65Halbfett.otf');
+	}
+
+@font-face{
+		font-family:"NeubauGrotesk-75Fett";
+		src:url('fonts/NeubauGrotesk-75Fett.otf');
+	}
+
+@font-face{
+		font-family:"NeubauGrotesk-85Schwer";
+		src:url('fonts/NeubauGrotesk-85Schwer.otf');
+	} 
+
+/* HEADER */
+
+body{
+
+}
+
+#header{
+	height:175px;
+	width: 100%;
+}
+
+#title-rule{
+	padding-bottom: 15px;
+	border: solid #39393a;
+	border-width: 7px 0 0  0;
+	}
+
+#blog-title{
+	float: left;
+	padding-left: 85px;
+	
+}
+
+#home{
+	font-family: 'NeubauGrotesk-55Normal';
+	font-size:32px;
+	text-decoration: underline;
+	color:#626366;
+}
+
+#issue{
+	
+	font-family: 'Helvetica';
+	font-size: 15px;
+	margin: 5;
+}
+
+#date{
+	padding-top: -5px;	
+}
+
+/* NAV */
+
+.nav{
+	padding-left: 200px;
+}
+
+.nav ul{
+	list-style-type: none;
+	text-align: center;
+	padding-top: 3px;
+}
+
+.nav ul li { 
+	display: inline; 
+	padding: 0 20px 0 20px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	margin-left: -4px;
+
+}
+
+.nav ul li a{
+	font-family: 'Helvetica';
+	font-size: 10px;
+	text-transform: uppercase;
+	color: #9d9fa1;
+	text-align: center;
+	text-decoration: none;
+}
+
+.nav ul li:hover a{
+	color:#fff;
+}
+
+.nav .News:hover{
+	background-color: $news;
+}
+
+.nav .Spotlight:hover {
+	background-color: $spotlight;
+}
+
+.nav .Opinion:hover{
+	background-color:  $opinion;
+}
+
+.nav .Lifestyle:hover{
+	background-color:  $lifestyle;
+}
+
+.nav .Events:hover{
+	background-color:  $events;
+}
+
+.nav .Inspiration:hover{
+	background-color:  $inspiration;
+}
+
+.nav .News{
+	@include nav-spacing($news);
+}
+
+.nav .Spotlight{
+	@include nav-spacing($spotlight);
+}
+
+.nav .Opinion{
+	@include nav-spacing($opinion);
+}
+
+.nav .Lifestyle{
+	@include nav-spacing($lifestyle);
+}
+
+.nav .Events{
+	@include nav-spacing($events);
+}
+
+.nav .Inspiration{
+	@include nav-spacing($inspiration);
+}
+
+/* FEATURE */
+
+#feature {
+  padding: 40px 0 20px 85px;
+  background-image: url(../images/wind-farm-purple.png);
+  background-repeat: true;
+  width: 1870px;
+  min-height: 150px;
+}
+
+#feature-title {
+  width: 500px;
+  color: #fff;
+}
+
+#feature-title a{
+	text-decoration: none;
+  color: #fff;
+}
+
+
+#author p{
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'Georgia';
+  font-size: 14px;
+}
+
+/* POST FEATURE */
+#post-wrapper {
+  margin: 40px 0 0 85px;
+  width: 100%;
+  white-space: nowrap;
+  position: absolute;
+}
+.post{
+	padding-right: 40px;
+	display: inline-block;
+	width: 300px;
+}
+
+.post img{
+	position: relative;
+}
+
+.post h3{
+	padding-top: 10px;
+}
+
+.author{
+	font-family: 'Helvetica';
+	color: #6c7370;
+	margin-bottom:0px;
+	text-transform: uppercase;
+}
+
+.explanation{
+	font-family: 'Helvetica';
+	color: #939597;
+	white-space:normal;
+	text-transform: uppercase;
+}
+
+
+.post:hover .News-bar{
+	@include hover-colors($news);
+}
+
+.post:hover .Spotlight-bar{
+	@include hover-colors($spotlight);
+}
+
+.post:hover .Opinion-bar{
+	@include hover-colors($opinion);
+}
+
+.post:hover .Lifestyle-bar{
+	@include hover-colors($lifestyle);
+}
+
+.post:hover .Events-bar{
+	@include hover-colors($events);
+}
+
+.post:hover .Inspiration-bar{
+	@include hover-colors($inspiration);
+}
+
+/* CONTENT */
+
+#content-feature{
+	padding: 20px 40px 60px 85px;
+	background-image: url(../images/wind-farm-purple.png);
+	background-repeat: true;
+	width:2300px;
+}
+
+#content{
+}
+
+#content-feature-bg{
+	height:100px;
+}
+
+#quote{
+	float:right;
+	margin-right: 20%;
+	width: 300px;
+	height:150px;
+	color:#fff;
+}
+
+#content-feature-title{
+	width: 500px;
+	color: #372662;
+	float:left;
+	padding: 40px 0 50px 85px;
+
+}
+
+#content-author p{
+	font-family: 'NeubauGrotesk-75Fett';
+	font-size: 22px;
+	text-decoration: underline;
+	color: #000;
+	position: relative;
+}
+
+#article:first-line{
+
+	text-transform: uppercase;
+	font-family: 'georgia';
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#article{
+	padding: 40px 30px 40px 0px;
+	width: 2300px;
+}
+
+.columndemo
+{
+	-moz-column-count: 4;
+	-moz-column-gap: 30px;
+
+	-webkit-column-count: 4;
+	-webkit-column-gap: 30px;
+	
+	column-count: 4;
+	column-gap: 30px;
+
+	text-align: left;
+}
