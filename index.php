@@ -97,11 +97,11 @@
 		
 	
 	<!-- This first part gets the large image for the feature article. Meta data 'wide feature' must be uploaded for it to work.  -->
-      <div id='feature-bg' style="background-image: url('<?php echo get_post_meta($post->ID, 'wide_feature', true)?>');"> 
+      <div id='feature' style="background-image: url('<?php echo get_post_meta($post->ID, 'wide_feature', true)?>');"> 
 	
 		<!-- It looks like this part puts the author name up and then links to people's pages if necesssary-->
-         <div  <?php post_class(); ?>>
-         	<div id="feature-title">
+      
+         	<div id="feature-title" >
 			<?php $authorNicename = get_the_author_meta('user_nicename'); ?>
 		      <?php
 		      if (! in_category(array('Columns'))) {   ?>
@@ -131,12 +131,10 @@
 				 	<a href="<?php bloginfo('url')?>/category/twogirls/">
 
 				<?php }?><?php the_title(); ?></a></h1>
-		      <?php   
-		      }?>
-				<p id= 'author'><?php the_author() ?> @ <?php the_time('Y/m/d'); ?></p>
+		        <?php }?><p ><?php the_author() ?> @ <?php the_time('Y/m/d'); ?></p>
 			<!-- This links to the actual article. the_content refers to the actual post.  -->
            </div> 
-         </div> 
+      
       </div> 
         <?php endwhile; ?>
 
@@ -208,89 +206,13 @@
    
 
   <div class="post<?php the_category_unlinked(' '); ?>">
-  	 <div class= 'news-bar'></div>  
-      <?php if(get_post_meta($post->ID, 'thumbnail', true)):?>
-				<?php
-				if (! in_category(array('Columns'))) {	?>
-				<a href="<?php the_permalink(); ?>">
-				<?php
-				}else{?>
-					<?php if(in_category('tylerdibiasio')){?>
-				      <a href="<?php bloginfo('url')?>/category/tylerdibiasio/">
-					<?php
-				}
-					?>
-				<?php if(in_category('mishatownsend')){?>
-				 	<a href="<?php bloginfo('url')?>/category/mishatownsend/">	
-				<?php
-				}
-				elseif(in_category('korwinbriggs')){?>
-				 <a href="<?php bloginfo('url')?>/category/korwinbriggs\">	
-				<?php
-				}
-				elseif(in_category('twogirls')){?>
-				 	<a href="<?php bloginfo('url')?>/category/twogirls/">
-			
-				<?php 
-				}
-				elseif(in_category('risdinrome')){?>
-				 	<a href="<?php bloginfo('url')?>/category/risdinrome/">
-			
-				<?php 
-				}
-				elseif(in_category('thefinerthings')){?>
-				 	<a href="<?php bloginfo('url')?>/category/thefinerthings/">
-			
-				<?php 
-				}
-				
-				}?>
-			
-		         <img src="<?php echo get_post_meta($post->ID, 'thumbnail', true); ?>" />
-				</a>
-      <?php endif; ?>
-
-
-      	<?php
-		if (! in_category(array('Columns'))) {	?>
-			<h3 <?php the_category_unlinked(' '); ?><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-		<?php
-		}else{?>
-			<h3 <?php the_category_unlinked(' '); ?><?php if(in_category('tylerdibiasio')){?>
-		      <a href="<?php bloginfo('url')?>/category/tylerdibiasio/">
-			<?php
-			}elseif(in_category('mishatownsend')){?>
-			 	<a href="<?php bloginfo('url')?>/category/mishatownsend/">	
-			<?php
-			}
-			elseif(in_category('korwinbriggs')){?>
-			 <a href="<?php bloginfo('url')?>/category/korwinbriggs/">	
-			<?php
-			}
-			elseif(in_category('risdinrome')){?>
-			 <a href="<?php bloginfo('url')?>/category/risdinrome/">	
-			<?php
-			}
-			elseif(in_category('thefinerthings')){?>
-			 <a href="<?php bloginfo('url')?>/category/thefinerthings/">	
-			<?php
-			}
-			elseif(in_category('twogirls')){?>
-			 	<a href="<?php bloginfo('url')?>/category/twogirls\">
-		
-			<?php }?><?php the_title(); ?></a></h3 <?php the_category_unlinked(' '); ?><?php }?>
-			<p id= 'author'><?php the_author() ?> @ <?php the_time('Y/m/d'); ?></p>
-      <?php
-      $string = get_the_content_our_way('Read More >>', FALSE);
-               echo($string);
-      ?>
-      
- 
-      
-      
-     
-      
-   </div>
+  	<div class= "post bar <?php the_category_unlinked(' '); ?>"></div>  
+	<a href='<?php the_permalink(); ?>'> <img src="<?php echo get_post_meta($post->ID, 'thumbnail', true); ?>" />
+	</a>
+	<a href=' <?php the_permalink(); ?>' class="post<?php the_category_unlinked(' '); ?>"><h3 ><?php the_title(); ?></h3></a>
+	<p id= 'author'><?php the_author() ?> @ <?php the_time('Y/m/d'); ?></p>
+	<?php the_excerpt(); ?>
+  </div>
    
       
    <?php 

@@ -29,7 +29,7 @@ h2 {
 /* line 59, style.scss */
 h3 {
   font-family: 'NeubauGrotesk-75Fett';
-  font-size: 43px;
+  font-size: 27px;
   margin: 0px;
   text-transform: uppercase;
 }
@@ -281,62 +281,68 @@ body {
 /* FEATURE */
 /* line 281, style.scss */
 #feature {
-  width: 2500px;
-  min-height: 150px;
+  width: 1870px;
+  background-repeat: true;
 }
 
-/* line 286, style.scss */
-#feature-bg {
-  padding: 40px 0 20px 85px;
-}
-
-/* line 291, style.scss */
+/* line 293, style.scss */
 #feature-title {
+  padding: 50px 0 30px 85px;
   width: 500px;
   color: #fff;
 }
 
-/* line 296, style.scss */
+/* line 300, style.scss */
 #feature-title a {
   text-decoration: none;
   color: #fff;
+  text-transform: uppercase;
 }
 
-/* line 302, style.scss */
-#author p {
-  text-transform: uppercase;
+/* line 306, style.scss */
+#feature-title p {
+  text-decoration: none;
   color: #fff;
-  font-family: 'Georgia';
-  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* line 313, style.scss */
+#author {
+  font-family: 'Helvetica';
+  color: #6c7370;
+  margin-bottom: 0px;
+  text-transform: uppercase;
 }
 
 /* POST FEATURE */
-/* line 310, style.scss */
+/* line 322, style.scss */
 #post-wrapper {
-  margin: 40px 0 0 85px;
-  width: 2500px;
-}
-
-/* line 316, style.scss */
-.post {
-  vertical-align: top;
-  padding-right: 40px;
-  display: inline-block;
-  width: 300px;
-}
-
-/* line 323, style.scss */
-.post img {
-  position: relative;
-  width: 260px;
+  margin: 40px 0 0 45px;
+  position: absolute;
+  width: 1770px;
 }
 
 /* line 328, style.scss */
-.post h3 {
-  padding-top: 10px;
+.post {
+  float: left;
+  padding-left: 40px;
+  display: inline-block;
+  width: 250px;
 }
 
-/* line 332, style.scss */
+/* line 335, style.scss */
+.post img {
+  position: relative;
+  width: 100%;
+}
+
+/* line 340, style.scss */
+.post a {
+  padding: 10px 0 5px 0;
+  text-decoration: none;
+}
+
+/* line 345, style.scss */
 .author {
   font-family: 'Helvetica';
   color: #6c7370;
@@ -344,70 +350,71 @@ body {
   text-transform: uppercase;
 }
 
-/* line 339, style.scss */
-.explanation {
+/* line 352, style.scss */
+div.post p {
   font-family: 'Helvetica';
   color: #939597;
   white-space: normal;
   text-transform: uppercase;
+  margin: 5px 0 0 0;
 }
 
-/* line 347, style.scss */
-.post:hover .news-bar {
-  width: 260px;
+/* line 361, style.scss */
+.post:hover .bar.news {
+  width: 210px;
   height: 25px;
   position: absolute;
-  z-index: 10;
+  z-index: 1;
   background-color: #372662;
 }
 
-/* line 351, style.scss */
-.post:hover .spotlight-bar {
-  width: 260px;
+/* line 365, style.scss */
+.post:hover .bar.spotlight {
+  width: 210px;
   height: 25px;
   position: absolute;
-  z-index: 10;
+  z-index: 1;
   background-color: #ed1457;
 }
 
-/* line 355, style.scss */
-.post:hover .opinion-bar {
-  width: 260px;
+/* line 369, style.scss */
+.post:hover .bar.opinion {
+  width: 210px;
   height: 25px;
   position: absolute;
-  z-index: 10;
+  z-index: 1;
   background-color: #f7923f;
 }
 
-/* line 359, style.scss */
-.post:hover .lifestyle-bar {
-  width: 260px;
+/* line 373, style.scss */
+.post:hover .bar.lifestyle {
+  width: 210px;
   height: 25px;
   position: absolute;
-  z-index: 10;
+  z-index: 1;
   background-color: #53c2bc;
 }
 
-/* line 363, style.scss */
-.post:hover .events-bar {
-  width: 260px;
+/* line 377, style.scss */
+.post:hover .bar.events {
+  width: 210px;
   height: 25px;
   position: absolute;
-  z-index: 10;
+  z-index: 1;
   background-color: #00b26e;
 }
 
-/* line 367, style.scss */
-.post:hover .inspiration-bar {
-  width: 260px;
+/* line 381, style.scss */
+.post:hover .bar.inspiration {
+  width: 210px;
   height: 25px;
   position: absolute;
-  z-index: 10;
+  z-index: 1;
   background-color: #f7be3c;
 }
 
 /* CONTENT */
-/* line 373, style.scss */
+/* line 387, style.scss */
 #content-feature {
   padding: 20px 40px 60px 85px;
   background-image: url(../images/wind-farm-purple.png);
@@ -415,12 +422,12 @@ body {
   width: 2300px;
 }
 
-/* line 383, style.scss */
+/* line 397, style.scss */
 #content-feature-bg {
   height: 100px;
 }
 
-/* line 387, style.scss */
+/* line 401, style.scss */
 #quote {
   float: right;
   margin-right: 20%;
@@ -429,7 +436,7 @@ body {
   color: #fff;
 }
 
-/* line 395, style.scss */
+/* line 409, style.scss */
 #content-feature-title {
   width: 500px;
   color: #372662;
@@ -437,7 +444,7 @@ body {
   padding: 40px 0 50px 85px;
 }
 
-/* line 403, style.scss */
+/* line 417, style.scss */
 #content-author p {
   font-family: 'NeubauGrotesk-75Fett';
   font-size: 22px;
@@ -446,7 +453,7 @@ body {
   position: relative;
 }
 
-/* line 411, style.scss */
+/* line 425, style.scss */
 #article:first-line {
   text-transform: uppercase;
   font-family: 'georgia';
@@ -454,13 +461,13 @@ body {
   font-size: 15px;
 }
 
-/* line 419, style.scss */
+/* line 433, style.scss */
 #article {
   padding: 40px 30px 40px 0px;
   width: 2300px;
 }
 
-/* line 425, style.scss */
+/* line 439, style.scss */
 .columndemo {
   -moz-column-count: 4;
   -moz-column-gap: 30px;

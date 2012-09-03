@@ -31,10 +31,10 @@ $inspiration: #f7be3c;
 }
 
 @mixin hover-colors($color) {
-	width:260px;
+	width:210px;
 	height: 25px;
 	position: absolute;
-	z-index: 10;
+	z-index: 1;
 	background-color: $color;
 }
 
@@ -58,7 +58,7 @@ h2{
 
 h3{
 	font-family: 'NeubauGrotesk-75Fett';
-	font-size: 43px;
+	font-size: 27px;
 	margin: 0px;
 	text-transform: uppercase;
 }
@@ -279,54 +279,67 @@ margin: 0;
 /* FEATURE */
 
 #feature {
-  width: 2500px;
-  min-height: 150px;
+
+  width: 1870px;
+  background-repeat: true;
+  
 }
 
 #feature-bg {
-  padding: 40px 0 20px 85px;
+
   
 }
 
 #feature-title {
+padding: 50px 0 30px 85px;
   width: 500px;
   color: #fff;
+
 }
 
 #feature-title a{
-	text-decoration: none;
+text-decoration: none;
   color: #fff;
+  text-transform: uppercase;
+}
+
+#feature-title p{
+text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 
-#author p{
-  text-transform: uppercase;
-  color: #fff;
-  font-family: 'Georgia';
-  font-size: 14px;
+#author {
+	font-family: 'Helvetica';
+	color: #6c7370;
+	margin-bottom:0px;
+	text-transform: uppercase;
 }
 
 /* POST FEATURE */
+
 #post-wrapper {
-  margin: 40px 0 0 85px;
-  width: 2500px;
- 
- 
+  margin: 40px 0 0 45px;
+ position: absolute;
+ width: 1770px;
 }
+
 .post{
-	vertical-align: top;
-	padding-right: 40px;
+	float:left;
+	padding-left: 40px;
 	display: inline-block;
-	width: 300px;
+	width: 250px;
 }
 
 .post img{
 	position: relative;
-	width: 260px;
+	width: 100%;
 }
 
-.post h3{
-	padding-top: 10px;
+.post a{
+	padding: 10px 0 5px 0;
+	text-decoration: none;
 }
 
 .author{
@@ -336,35 +349,36 @@ margin: 0;
 	text-transform: uppercase;
 }
 
-.explanation{
+div.post p{
 	font-family: 'Helvetica';
 	color: #939597;
 	white-space:normal;
 	text-transform: uppercase;
+	margin: 5px 0 0 0;
 }
 
 
-.post:hover .news-bar{
+.post:hover .bar.news{
 	@include hover-colors($news);
 }
 
-.post:hover .spotlight-bar{
+.post:hover .bar.spotlight{
 	@include hover-colors($spotlight);
 }
 
-.post:hover .opinion-bar{
+.post:hover .bar.opinion{
 	@include hover-colors($opinion);
 }
 
-.post:hover .lifestyle-bar{
+.post:hover .bar.lifestyle{
 	@include hover-colors($lifestyle);
 }
 
-.post:hover .events-bar{
+.post:hover .bar.events{
 	@include hover-colors($events);
 }
 
-.post:hover .inspiration-bar{
+.post:hover .bar.inspiration{
 	@include hover-colors($inspiration);
 }
 
