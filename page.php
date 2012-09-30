@@ -64,15 +64,7 @@
 		endwhile;
 		?>
 	
-		<aside class="eventsKey">
-			<h2>Categories</h2>
-			<ul>
-				<li class="keyStudentEvents">Student Events</li>
-				<li class="keyLectures">Lectures</li>
-				<li class="keyGalleryOpenings">Gallery Openings</li>
-				<li class="keyProvidenceNews">Providence News</li>
-			<ul>	
-		</aside>	
+		
 	</div>
 	<div id="footer">
 

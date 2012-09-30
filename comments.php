@@ -9,22 +9,9 @@ if ( post_password_required() ) {
 
 
 <?php if ( have_comments() ) : ?>
-    <h2 <?php
-	//edits get_post_class, replacing category-featured with ""
-	$featuredClasses = get_post_class(""); 
-	$featuredClasses = preg_replace("/category-featured/",'',$featuredClasses);
-
-	$featuredString = implode(' ',$featuredClasses);
-	echo("class=\"$featuredString\">");
-	?>Comments</h2>
+    <h3>Comments</h3>
      
-    <ul <?php
-	//edits get_post_class, replacing category-featured with ""
-	$featuredClasses = get_post_class(); 
-	$featuredClasses = preg_replace("/category-featured/","commentlist",$featuredClasses);
-	$featuredString = implode(' ',$featuredClasses);
-	echo("class=\"$featuredString commentlist\">");
-	?>
+    <ul>
 		<?php wp_list_comments('type=comment&avatar_size=54'); ?>
 	</ul>
 	
