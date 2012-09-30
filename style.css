@@ -10,7 +10,7 @@ http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 */
 /* LESS CSS VARIABLES */
 /* GLOBAL */
-/* line 45, style.scss */
+/* line 54, style.scss */
 h1 {
   font-family: 'NeubauGrotesk-85Schwer';
   font-size: 50px;
@@ -18,7 +18,7 @@ h1 {
   text-transform: uppercase;
 }
 
-/* line 52, style.scss */
+/* line 61, style.scss */
 h2 {
   font-family: 'NeubauGrotesk-75Fett';
   font-size: 57px;
@@ -26,7 +26,7 @@ h2 {
   text-transform: uppercase;
 }
 
-/* line 59, style.scss */
+/* line 68, style.scss */
 h3 {
   font-family: 'NeubauGrotesk-75Fett';
   font-size: 27px;
@@ -34,14 +34,14 @@ h3 {
   text-transform: uppercase;
 }
 
-/* line 66, style.scss */
+/* line 75, style.scss */
 h4 {
   font-family: 'Georgia';
   font-size: 24px;
   font-style: italic;
 }
 
-/* line 72, style.scss */
+/* line 81, style.scss */
 h5 {
   font-family: 'NeubauGrotesk-85Schwer';
   font-size: 60px;
@@ -49,38 +49,38 @@ h5 {
   text-transform: uppercase;
 }
 
-/* line 79, style.scss */
+/* line 88, style.scss */
 p {
   font-family: 'Georgia';
   font-size: 14px;
 }
 
-/* line 85, style.scss */
+/* line 94, style.scss */
 .news {
   color: #372662;
 }
 
-/* line 89, style.scss */
+/* line 98, style.scss */
 .spotlight {
   color: #ed1457;
 }
 
-/* line 93, style.scss */
+/* line 102, style.scss */
 .opinion {
   color: #f7923f;
 }
 
-/* line 97, style.scss */
+/* line 106, style.scss */
 .lifestyle {
   color: #53c2bc;
 }
 
-/* line 101, style.scss */
+/* line 110, style.scss */
 .events {
   color: #00b26e;
 }
 
-/* line 105, style.scss */
+/* line 114, style.scss */
 .inspiration {
   color: #f7be3c;
 }
@@ -117,78 +117,80 @@ p {
 }
 
 /* HEADER */
-/* line 143, style.scss */
+/* line 152, style.scss */
 html {
   margin: 0;
   padding: 0;
 }
 
-/* line 148, style.scss */
+/* line 157, style.scss */
 body {
   margin: 0;
   padding: 0;
 }
 
-/* line 153, style.scss */
+/* line 162, style.scss */
 #menu {
   margin: 5px;
 }
 
-/* line 159, style.scss */
+/* line 168, style.scss */
 #header {
   height: 175px;
   width: 100%;
 }
 
-/* line 164, style.scss */
+/* line 173, style.scss */
 #title-rule {
   padding-bottom: 15px;
   border: solid #39393a;
   border-width: 7px 0 0  0;
 }
 
-/* line 170, style.scss */
+/* line 179, style.scss */
 #blog-title {
   float: left;
   padding-left: 85px;
   padding-right: 200px;
 }
 
-/* line 177, style.scss */
+/* line 186, style.scss */
 #home {
-  font-family: 'NeubauGrotesk-55Normal';
+  font-family: 'NeubauGrotesk-65Halbfett';
   font-size: 32px;
   text-decoration: underline;
   color: #626366;
 }
 
-/* line 184, style.scss */
+/* line 193, style.scss */
 #issue {
   font-family: 'Helvetica';
   font-size: 15px;
-  margin: 5;
+  margin-top: 25;
+  color: #39393a;
 }
 
-/* line 191, style.scss */
+/* line 201, style.scss */
 #date {
   padding-top: -5px;
+  color: #39393A;
 }
 
 /* NAV */
-/* line 197, style.scss */
+/* line 208, style.scss */
 .nav {
   float: left;
   width: 600px;
   margin-bottom: 20px;
 }
 
-/* line 203, style.scss */
+/* line 214, style.scss */
 .nav ul {
   list-style-type: none;
   text-align: center;
 }
 
-/* line 209, style.scss */
+/* line 220, style.scss */
 .nav ul li {
   display: inline;
   padding: 0 20px 0 20px;
@@ -197,7 +199,7 @@ body {
   margin-left: -4px;
 }
 
-/* line 218, style.scss */
+/* line 229, style.scss */
 .nav ul li a {
   font-family: 'Helvetica';
   font-size: 10px;
@@ -207,106 +209,108 @@ body {
   text-decoration: none;
 }
 
-/* line 227, style.scss */
+/* line 238, style.scss */
 .nav ul li:hover a {
   color: #fff;
 }
 
-/* line 231, style.scss */
+/* line 242, style.scss */
 .nav .News:hover {
   background-color: #372662;
 }
 
-/* line 235, style.scss */
+/* line 246, style.scss */
 .nav .Spotlight:hover {
   background-color: #ed1457;
 }
 
-/* line 239, style.scss */
+/* line 250, style.scss */
 .nav .Opinion:hover {
   background-color: #f7923f;
 }
 
-/* line 243, style.scss */
+/* line 254, style.scss */
 .nav .Lifestyle:hover {
   background-color: #53c2bc;
 }
 
-/* line 247, style.scss */
+/* line 258, style.scss */
 .nav .Events:hover {
   background-color: #00b26e;
 }
 
-/* line 251, style.scss */
+/* line 262, style.scss */
 .nav .Inspiration:hover {
   background-color: #f7be3c;
 }
 
-/* line 255, style.scss */
+/* line 266, style.scss */
 .nav .News {
   border-top: solid #372662;
   border-width: 7px 0 0  0;
 }
 
-/* line 259, style.scss */
+/* line 270, style.scss */
 .nav .Spotlight {
   border-top: solid #ed1457;
   border-width: 7px 0 0  0;
 }
 
-/* line 263, style.scss */
+/* line 274, style.scss */
 .nav .Opinion {
   border-top: solid #f7923f;
   border-width: 7px 0 0  0;
 }
 
-/* line 267, style.scss */
+/* line 278, style.scss */
 .nav .Lifestyle {
   border-top: solid #53c2bc;
   border-width: 7px 0 0  0;
 }
 
-/* line 271, style.scss */
+/* line 282, style.scss */
 .nav .Events {
   border-top: solid #00b26e;
   border-width: 7px 0 0  0;
 }
 
-/* line 275, style.scss */
+/* line 286, style.scss */
 .nav .Inspiration {
   border-top: solid #f7be3c;
   border-width: 7px 0 0  0;
 }
 
 /* FEATURE */
-/* line 281, style.scss */
+/* line 292, style.scss */
 #feature {
   width: 1870px;
   background-repeat: true;
 }
 
-/* line 293, style.scss */
+/* line 304, style.scss */
 #feature-title {
-  padding: 50px 0 30px 85px;
+  padding: 50px 0 100px 85px;
+  margin-bottom: 10px;
+  margin-top: 20px;
   width: 500px;
   color: #fff;
 }
 
-/* line 300, style.scss */
+/* line 313, style.scss */
 #feature-title a {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
 }
 
-/* line 306, style.scss */
+/* line 319, style.scss */
 #feature-title p {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
 }
 
-/* line 313, style.scss */
+/* line 326, style.scss */
 #author {
   font-family: 'Helvetica';
   color: #6c7370;
@@ -315,14 +319,14 @@ body {
 }
 
 /* POST FEATURE */
-/* line 322, style.scss */
+/* line 335, style.scss */
 #post-wrapper {
   margin: 40px 0 0 45px;
   position: absolute;
   width: 1770px;
 }
 
-/* line 328, style.scss */
+/* line 341, style.scss */
 .post {
   float: left;
   padding-left: 40px;
@@ -330,91 +334,92 @@ body {
   width: 250px;
 }
 
-/* line 335, style.scss */
+/* line 348, style.scss */
 .post img {
   position: relative;
   width: 100%;
 }
 
-/* line 340, style.scss */
+/* line 353, style.scss */
 .post a {
   padding: 10px 0 5px 0;
   text-decoration: none;
 }
 
-/* line 345, style.scss */
+/* line 358, style.scss */
 .author {
   font-family: 'Helvetica';
-  color: #6c7370;
+  color: #39393a;
   margin-bottom: 0px;
   text-transform: uppercase;
 }
 
-/* line 352, style.scss */
+/* line 365, style.scss */
 div.post p {
   font-family: 'Helvetica';
   color: #939597;
+  font-size: 11px;
   white-space: normal;
-  text-transform: uppercase;
+  text-transform: none;
   margin: 5px 0 0 0;
 }
 
-/* line 361, style.scss */
+/* line 375, style.scss */
 .post:hover .bar.news {
   width: 210px;
-  height: 25px;
+  height: 15px;
   position: absolute;
   z-index: 1;
   background-color: #372662;
 }
 
-/* line 365, style.scss */
+/* line 379, style.scss */
 .post:hover .bar.spotlight {
   width: 210px;
-  height: 25px;
+  height: 15px;
   position: absolute;
   z-index: 1;
   background-color: #ed1457;
 }
 
-/* line 369, style.scss */
+/* line 383, style.scss */
 .post:hover .bar.opinion {
   width: 210px;
-  height: 25px;
+  height: 15px;
   position: absolute;
   z-index: 1;
   background-color: #f7923f;
 }
 
-/* line 373, style.scss */
+/* line 387, style.scss */
 .post:hover .bar.lifestyle {
   width: 210px;
-  height: 25px;
+  height: 15px;
   position: absolute;
   z-index: 1;
   background-color: #53c2bc;
 }
 
-/* line 377, style.scss */
+/* line 391, style.scss */
 .post:hover .bar.events {
   width: 210px;
-  height: 25px;
+  height: 15px;
   position: absolute;
   z-index: 1;
   background-color: #00b26e;
 }
 
-/* line 381, style.scss */
+/* line 395, style.scss */
 .post:hover .bar.inspiration {
   width: 210px;
-  height: 25px;
+  height: 15px;
   position: absolute;
   z-index: 1;
   background-color: #f7be3c;
 }
 
 /* CONTENT */
-/* line 387, style.scss */
+/* line 401, style.scss */
 #content-feature {
   padding: 20px 40px 60px 85px;
   background-image: url(../images/wind-farm-purple.png);
@@ -422,12 +427,12 @@ div.post p {
   width: 2300px;
 }
 
-/* line 397, style.scss */
+/* line 411, style.scss */
 #content-feature-bg {
   height: 100px;
 }
 
-/* line 401, style.scss */
+/* line 415, style.scss */
 #quote {
   float: right;
   margin-right: 20%;
@@ -436,7 +441,7 @@ div.post p {
   color: #fff;
 }
 
-/* line 409, style.scss */
+/* line 423, style.scss */
 #content-feature-title {
   width: 500px;
   color: #372662;
@@ -444,7 +449,7 @@ div.post p {
   padding: 40px 0 50px 85px;
 }
 
-/* line 417, style.scss */
+/* line 431, style.scss */
 #content-author p {
   font-family: 'NeubauGrotesk-75Fett';
   font-size: 22px;
@@ -453,7 +458,7 @@ div.post p {
   position: relative;
 }
 
-/* line 425, style.scss */
+/* line 439, style.scss */
 #article:first-line {
   text-transform: uppercase;
   font-family: 'georgia';
@@ -461,13 +466,13 @@ div.post p {
   font-size: 15px;
 }
 
-/* line 433, style.scss */
+/* line 447, style.scss */
 #article {
   padding: 40px 30px 40px 0px;
   width: 2300px;
 }
 
-/* line 439, style.scss */
+/* line 453, style.scss */
 .columndemo {
   -moz-column-count: 4;
   -moz-column-gap: 30px;
@@ -476,4 +481,95 @@ div.post p {
   column-count: 4;
   column-gap: 30px;
   text-align: left;
+}
+
+/* line 466, style.scss */
+#FooterWrapper {
+  width: 100%;
+  height: 40px;
+  /*	background-color:red;
+  */
+  position: absolute;
+  bottom: 5px;
+  padding-left: 50px;
+}
+
+/* line 476, style.scss */
+#FooterWrapper ul li {
+  list-style: none;
+  display: inline;
+  font-family: Helvetica,Arial;
+  font-size: 12px;
+}
+
+/* line 483, style.scss */
+#FooterWrapper a {
+  color: #939597;
+  padding-right: 20px;
+}
+
+/* line 488, style.scss */
+#FooterWrapper a:hover {
+  color: #39393a;
+}
+
+/* line 492, style.scss */
+#ArchiveContainer {
+  margin: 25px 0 0 85px;
+}
+
+/* line 497, style.scss */
+#ArchiveContent ul li {
+  list-style: none;
+  line-height: 40px;
+  margin-bottom: 50px;
+  background-color: red;
+  height: 300px;
+  width: 1000px;
+}
+
+/* line 506, style.scss */
+#ArchiveContent {
+  font-family: Helvetica,Arial,sans-serif;
+  color: #939597;
+  font-size: 10px;
+}
+
+/* line 513, style.scss */
+#ArchiveContent ul li a {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  font-family: "NeubauGrotesk-75Fett";
+  font-size: 50px;
+  color: #FAFAFA;
+}
+
+/* line 542, style.scss */
+#ArchiveContent ul li a:hover {
+  color: #939597;
+}
+
+/* line 546, style.scss */
+#ArchiveContent h5 {
+  color: #39393a;
+}
+
+/* line 550, style.scss */
+#s {
+  min-height: 50px;
+  min-width: 1000px;
+  box-shadow: none;
+  border: none;
+  /*	background-color:#FAFAFA;
+  */
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  color: #939597;
+}
+
+/* line 562, style.scss */
+#s:focus {
+  outline: none;
 }

@@ -224,6 +224,12 @@
 </div>
 </div>
 
+<div class="footer">
+	
+      <!-- Retrieve and display the header (which is a separate .php file) -->
+      <?php get_footer(); ?>
+   
+</div>
 
 
       

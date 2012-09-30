@@ -25,6 +25,12 @@ $events: #00b26e;
 
 $inspiration: #f7be3c;
 
+$background-black: #272822;
+
+$lightergrey: #939597;
+
+$darkergrey: #39393A;
+
 @mixin nav-spacing($color) {
 	border-top: solid $color;
 	border-width: 7px 0 0  0;
@@ -32,12 +38,15 @@ $inspiration: #f7be3c;
 
 @mixin hover-colors($color) {
 	width:210px;
-	height: 25px;
+	height: 15px;
 	position: absolute;
 	z-index: 1;
 	background-color: $color;
 }
 
+@mixin pad{
+	padding-left:85px;
+}
 
 
 
@@ -175,7 +184,7 @@ margin: 0;
 }
 
 #home{
-	font-family: 'NeubauGrotesk-55Normal';
+	font-family: 'NeubauGrotesk-65Halbfett';
 	font-size:32px;
 	text-decoration: underline;
 	color:#626366;
@@ -185,11 +194,13 @@ margin: 0;
 	
 	font-family: 'Helvetica';
 	font-size: 15px;
-	margin: 5;
+	margin-top: 25;
+	color:$darkergrey;
 }
 
 #date{
 	padding-top: -5px;	
+	color:#39393A;
 }
 
 /* NAV */
@@ -291,7 +302,9 @@ margin: 0;
 }
 
 #feature-title {
-padding: 50px 0 30px 85px;
+padding: 50px 0 100px 85px;
+margin-bottom:10px;
+margin-top:20px;
   width: 500px;
   color: #fff;
 
@@ -304,9 +317,9 @@ text-decoration: none;
 }
 
 #feature-title p{
-text-decoration: none;
-  color: #fff;
-  text-transform: uppercase;
+	text-decoration: none;
+	 color: #fff;
+	 text-transform: uppercase;
 }
 
 
@@ -344,16 +357,17 @@ text-decoration: none;
 
 .author{
 	font-family: 'Helvetica';
-	color: #6c7370;
+	color: $darkergrey;
 	margin-bottom:0px;
 	text-transform: uppercase;
 }
 
 div.post p{
 	font-family: 'Helvetica';
-	color: #939597;
+	color: $lightergrey;
+	font-size:11px;
 	white-space:normal;
-	text-transform: uppercase;
+	text-transform:none;
 	margin: 5px 0 0 0;
 }
 
@@ -448,3 +462,105 @@ div.post p{
 
 	text-align: left;
 }
+
+#FooterWrapper {
+	width:100%;
+	height:40px;
+/*	background-color:red;
+*/	position:absolute;
+	bottom:5px;
+	padding-left:50px;
+}
+
+
+#FooterWrapper ul li {
+	list-style:none;
+	display:inline;
+	font-family:Helvetica,Arial;
+	font-size:12px;
+}
+
+#FooterWrapper a {
+	color:$lightergrey;
+	padding-right:20px;
+}
+
+#FooterWrapper a:hover{
+	color:$darkergrey;
+}
+
+#ArchiveContainer{
+	margin:25px 0 0 85px;
+
+}
+
+#ArchiveContent ul li{
+	list-style:none;
+	line-height:40px;
+	margin-bottom:50px;
+	background-color:red;
+	height:300px;
+	width:1000px;
+}
+
+#ArchiveContent {
+	font-family:Helvetica,Arial,sans-serif;
+	color:$lightergrey;
+	font-size:10px;
+
+}
+
+#ArchiveContent ul li a{
+	position:relative;
+	top:50px;
+	left:50px;
+	font-family:"NeubauGrotesk-75Fett";
+	font-size:50px;
+	color:#FAFAFA;
+
+}
+
+#ArchiveContent ul li:nth-child(1){
+
+
+}
+
+#ArchiveContent ul li:nth-child(2){
+	
+
+}
+
+#ArchiveContent ul li:nth-child(3){
+
+
+}
+
+#ArchiveContent ul li:nth-child(4){
+
+}
+
+#ArchiveContent ul li a:hover{
+	color:$lightergrey;
+}
+
+#ArchiveContent h5{
+	color:$darkergrey;
+}
+
+#s{
+	min-height:50px;
+	min-width:1000px;
+	box-shadow:none;
+	border:none;
+/*	background-color:#FAFAFA;
+*/	font-family:Helvetica,Arial,sans-serif;
+	font-weight:bold;
+	font-size:48px;
+	color:$lightergrey
+}
+
+#s:focus{
+	outline:none;
+}
+
+

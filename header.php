@@ -15,8 +15,8 @@ while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 
   		<div id= "blog-title">
   			<div id= "title-rule"></div> 
-  		
-    			 <a id= "home" href="all-nighter.html">www.all-nighter.com</a>
+  		      <!-- <br> -->
+    			 <a id= "home" href="index.php">http://www.all-nighter.com</a>
     			 <p id= "issue">our last update: </p>
     			 <h2 id= 'date'><?php the_date('m/d/y'); ?><h2> 
   			

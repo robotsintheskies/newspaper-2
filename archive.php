@@ -26,39 +26,6 @@
 	<?php wp_head(); ?>
 	<script type="text/javascript" src="http://cdn.jquerytools.org/1.2.4/full/jquery.tools.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/scripts/jquery.simplyscroll.js"></script>
-	<script type="text/javascript">
-	 $(function(){
-		$(".glass").hover(showSearch,hideSearch);
-	});
-	var mouseinglass = 0;
-	      var mouseinsearch = 0;
-	      var timer = 0;
-	      function showSearch(){
-	         $(".searchForm").show();
-	         mouseinglass = 1;
-	         $(".searchForm").hover(focusSearch,blurSearch);
-	         timer = setTimeout("timesUp()",3000);
-	      }
-	      function focusSearch() {
-	         mouseinsearch = 1;
-	      }
-	      function blurSearch() {
-	         mouseinsearch = 0;
-	      }
-	      function hideSearch() { 
-	         mouseinglass = 0;
-	      }        
-	      function timesUp() {
-	         if ((! mouseinglass) && (! mouseinsearch)) {
-	            $(".searchForm").fadeOut();
-	            clearTimeout($timer);
-	         }
-	         else {
-	            timer = setTimeout("timesUp()",3000);
-	         }
-	      }
-	
-	</script>
 
 
 
