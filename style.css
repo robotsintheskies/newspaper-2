@@ -129,31 +129,51 @@ body {
   padding: 0;
 }
 
+<<<<<<< HEAD
 /* line 163, style.scss */
+=======
+/* line 172, style.scss */
+>>>>>>> DICK
 #menu {
   margin: 5px;
 }
 
+<<<<<<< HEAD
 /* line 169, style.scss */
+=======
+/* line 178, style.scss */
+>>>>>>> DICK
 #header {
   height: 175px;
   width: 100%;
 }
 
+<<<<<<< HEAD
 /* line 174, style.scss */
+=======
+/* line 183, style.scss */
+>>>>>>> DICK
 #title-rule {
   padding-bottom: 15px;
   border: solid #39393a;
   border-width: 7px 0 0  0;
 }
 
+<<<<<<< HEAD
 /* line 180, style.scss */
+=======
+/* line 189, style.scss */
+>>>>>>> DICK
 #blog-title {
   float: left;
   padding-left: 85px;
 }
 
+<<<<<<< HEAD
 /* line 187, style.scss */
+=======
+/* line 196, style.scss */
+>>>>>>> DICK
 #home {
   font-family: 'NeubauGrotesk-65Halbfett';
   font-size: 32px;
@@ -161,7 +181,11 @@ body {
   color: #626366;
 }
 
+<<<<<<< HEAD
 /* line 194, style.scss */
+=======
+/* line 203, style.scss */
+>>>>>>> DICK
 #issue {
   font-family: 'Helvetica';
   font-size: 15px;
@@ -169,14 +193,22 @@ body {
   color: #39393a;
 }
 
+<<<<<<< HEAD
 /* line 202, style.scss */
+=======
+/* line 211, style.scss */
+>>>>>>> DICK
 #date {
   padding-top: -5px;
   color: #39393A;
 }
 
 /* NAV */
+<<<<<<< HEAD
 /* line 209, style.scss */
+=======
+/* line 218, style.scss */
+>>>>>>> DICK
 .nav {
   float: right;
   width: 600px;
@@ -184,6 +216,7 @@ body {
   margin-right: 30px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -197,11 +230,15 @@ body {
 =======
 /* line 216, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 225, style.scss */
+>>>>>>> DICK
 .nav ul {
   list-style-type: none;
   text-align: center;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -215,6 +252,9 @@ body {
 =======
 /* line 222, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 231, style.scss */
+>>>>>>> DICK
 .nav ul li {
   display: inline;
   padding: 0 20px 0 20px;
@@ -223,6 +263,7 @@ body {
   margin-left: -4px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -236,6 +277,9 @@ body {
 =======
 /* line 232, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 241, style.scss */
+>>>>>>> DICK
 .nav ul li a {
   font-family: 'Helvetica';
   font-size: 10px;
@@ -245,6 +289,7 @@ body {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -258,10 +303,14 @@ body {
 =======
 /* line 241, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 250, style.scss */
+>>>>>>> DICK
 .nav ul li:hover a {
   color: #fff;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -275,10 +324,14 @@ body {
 =======
 /* line 245, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 254, style.scss */
+>>>>>>> DICK
 .nav .News:hover {
   background-color: #372662;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -292,10 +345,14 @@ body {
 =======
 /* line 249, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 258, style.scss */
+>>>>>>> DICK
 .nav .Spotlight:hover {
   background-color: #ed1457;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -309,10 +366,14 @@ body {
 =======
 /* line 253, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 262, style.scss */
+>>>>>>> DICK
 .nav .Opinion:hover {
   background-color: #f7923f;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -326,10 +387,14 @@ body {
 =======
 /* line 257, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 266, style.scss */
+>>>>>>> DICK
 .nav .Lifestyle:hover {
   background-color: #53c2bc;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -343,10 +408,14 @@ body {
 =======
 /* line 261, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 270, style.scss */
+>>>>>>> DICK
 .nav .Events:hover {
   background-color: #00b26e;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -360,10 +429,14 @@ body {
 =======
 /* line 265, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 274, style.scss */
+>>>>>>> DICK
 .nav .Inspiration:hover {
   background-color: #f7be3c;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -377,11 +450,15 @@ body {
 =======
 /* line 269, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 278, style.scss */
+>>>>>>> DICK
 .nav .News {
   border-top: solid #372662;
   border-width: 7px 0 0  0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -395,11 +472,15 @@ body {
 =======
 /* line 273, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 282, style.scss */
+>>>>>>> DICK
 .nav .Spotlight {
   border-top: solid #ed1457;
   border-width: 7px 0 0  0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -413,11 +494,15 @@ body {
 =======
 /* line 277, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 286, style.scss */
+>>>>>>> DICK
 .nav .Opinion {
   border-top: solid #f7923f;
   border-width: 7px 0 0  0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -431,11 +516,15 @@ body {
 =======
 /* line 281, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 290, style.scss */
+>>>>>>> DICK
 .nav .Lifestyle {
   border-top: solid #53c2bc;
   border-width: 7px 0 0  0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -449,11 +538,15 @@ body {
 =======
 /* line 285, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 294, style.scss */
+>>>>>>> DICK
 .nav .Events {
   border-top: solid #00b26e;
   border-width: 7px 0 0  0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -467,12 +560,16 @@ body {
 =======
 /* line 289, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 298, style.scss */
+>>>>>>> DICK
 .nav .Inspiration {
   border-top: solid #f7be3c;
   border-width: 7px 0 0  0;
 }
 
 /* FEATURE */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -486,11 +583,15 @@ body {
 =======
 /* line 295, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 304, style.scss */
+>>>>>>> DICK
 #feature {
   width: 1870px;
   background-repeat: true;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -504,6 +605,9 @@ body {
 =======
 /* line 307, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 316, style.scss */
+>>>>>>> DICK
 #feature-title {
   padding: 50px 0 100px 85px;
   margin-bottom: 10px;
@@ -512,6 +616,7 @@ body {
   color: #fff;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -525,12 +630,16 @@ body {
 =======
 /* line 316, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 325, style.scss */
+>>>>>>> DICK
 #feature-title a {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -544,12 +653,16 @@ body {
 =======
 /* line 322, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 331, style.scss */
+>>>>>>> DICK
 #feature-title p {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -563,6 +676,9 @@ body {
 =======
 /* line 329, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 338, style.scss */
+>>>>>>> DICK
 #author {
   font-family: 'Helvetica';
   color: #6c7370;
@@ -571,6 +687,7 @@ body {
 }
 
 /* POST FEATURE */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -584,12 +701,17 @@ body {
 =======
 /* line 338, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 347, style.scss */
+>>>>>>> DICK
 #post-wrapper {
   margin: 40px 0 0 45px;
   position: absolute;
   width: 1770px;
+  padding-bottom: 60px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -603,6 +725,9 @@ body {
 =======
 /* line 344, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 354, style.scss */
+>>>>>>> DICK
 .post {
   float: left;
   padding-left: 40px;
@@ -610,6 +735,7 @@ body {
   width: 250px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -623,11 +749,15 @@ body {
 =======
 /* line 351, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 361, style.scss */
+>>>>>>> DICK
 .post img {
   position: relative;
   width: 100%;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -641,11 +771,15 @@ body {
 =======
 /* line 356, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 366, style.scss */
+>>>>>>> DICK
 .post a {
   padding: 10px 0 5px 0;
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -659,6 +793,9 @@ body {
 =======
 /* line 361, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 371, style.scss */
+>>>>>>> DICK
 .author {
   font-family: 'Helvetica';
   color: #39393a;
@@ -666,6 +803,7 @@ body {
   text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -679,6 +817,9 @@ body {
 =======
 /* line 368, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 378, style.scss */
+>>>>>>> DICK
 div.post p {
   font-family: 'Helvetica';
   color: #939597;
@@ -688,6 +829,7 @@ div.post p {
   margin: 5px 0 0 0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -701,6 +843,9 @@ div.post p {
 =======
 /* line 378, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 388, style.scss */
+>>>>>>> DICK
 .post:hover .bar.news {
   width: 210px;
   height: 15px;
@@ -709,6 +854,7 @@ div.post p {
   background-color: #372662;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -722,6 +868,9 @@ div.post p {
 =======
 /* line 382, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 392, style.scss */
+>>>>>>> DICK
 .post:hover .bar.spotlight {
   width: 210px;
   height: 15px;
@@ -730,6 +879,7 @@ div.post p {
   background-color: #ed1457;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -743,6 +893,9 @@ div.post p {
 =======
 /* line 386, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 396, style.scss */
+>>>>>>> DICK
 .post:hover .bar.opinion {
   width: 210px;
   height: 15px;
@@ -751,6 +904,7 @@ div.post p {
   background-color: #f7923f;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -764,6 +918,9 @@ div.post p {
 =======
 /* line 390, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 400, style.scss */
+>>>>>>> DICK
 .post:hover .bar.lifestyle {
   width: 210px;
   height: 15px;
@@ -772,6 +929,7 @@ div.post p {
   background-color: #53c2bc;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -785,6 +943,9 @@ div.post p {
 =======
 /* line 394, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 404, style.scss */
+>>>>>>> DICK
 .post:hover .bar.events {
   width: 210px;
   height: 15px;
@@ -793,6 +954,7 @@ div.post p {
   background-color: #00b26e;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -806,6 +968,9 @@ div.post p {
 =======
 /* line 398, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 408, style.scss */
+>>>>>>> DICK
 .post:hover .bar.inspiration {
   width: 210px;
   height: 15px;
@@ -815,6 +980,7 @@ div.post p {
 }
 
 /* CONTENT */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -828,6 +994,9 @@ div.post p {
 =======
 /* line 404, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 414, style.scss */
+>>>>>>> DICK
 #content-feature {
   padding: 20px 40px 60px 85px;
   background-image: url(../images/wind-farm-purple.png);
@@ -835,6 +1004,7 @@ div.post p {
   width: 2300px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -848,10 +1018,14 @@ div.post p {
 =======
 /* line 414, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 424, style.scss */
+>>>>>>> DICK
 #content-feature-bg {
   height: 100px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -865,6 +1039,9 @@ div.post p {
 =======
 /* line 418, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 428, style.scss */
+>>>>>>> DICK
 #quote {
   float: right;
   margin-right: 20%;
@@ -873,6 +1050,7 @@ div.post p {
   color: #fff;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -886,6 +1064,9 @@ div.post p {
 =======
 /* line 426, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 436, style.scss */
+>>>>>>> DICK
 #content-feature-title {
   width: 500px;
   color: #372662;
@@ -893,6 +1074,7 @@ div.post p {
   padding: 40px 0 50px 85px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -906,6 +1088,9 @@ div.post p {
 =======
 /* line 434, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 444, style.scss */
+>>>>>>> DICK
 #content-author p {
   font-family: 'NeubauGrotesk-75Fett';
   font-size: 22px;
@@ -914,6 +1099,7 @@ div.post p {
   position: relative;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -927,6 +1113,9 @@ div.post p {
 =======
 /* line 442, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 452, style.scss */
+>>>>>>> DICK
 #article:first-line {
   text-transform: uppercase;
   font-family: 'georgia';
@@ -934,6 +1123,7 @@ div.post p {
   font-size: 15px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -947,11 +1137,15 @@ div.post p {
 =======
 /* line 450, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 460, style.scss */
+>>>>>>> DICK
 #article {
   padding: 40px 30px 40px 0px;
   width: 2300px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -965,6 +1159,9 @@ div.post p {
 =======
 /* line 456, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 466, style.scss */
+>>>>>>> DICK
 .columndemo {
   -moz-column-count: 4;
   -moz-column-gap: 30px;
@@ -975,6 +1172,7 @@ div.post p {
   text-align: left;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -988,6 +1186,9 @@ div.post p {
 =======
 /* line 470, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 480, style.scss */
+>>>>>>> DICK
 #FooterWrapper {
   width: 100%;
   height: 40px;
@@ -1002,6 +1203,7 @@ div.post p {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  
 /* line 483, style.scss */
 
@@ -1013,6 +1215,9 @@ div.post p {
 =======
 /* line 483, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 493, style.scss */
+>>>>>>> DICK
 #FooterWrapper ul li {
   list-style: none;
   display: inline;
@@ -1020,6 +1225,7 @@ div.post p {
   font-size: 12px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -1033,11 +1239,15 @@ div.post p {
 =======
 /* line 490, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 500, style.scss */
+>>>>>>> DICK
 #FooterWrapper a {
   color: #939597;
   padding-right: 20px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -1051,10 +1261,14 @@ div.post p {
 =======
 /* line 495, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 505, style.scss */
+>>>>>>> DICK
 #FooterWrapper a:hover {
   color: #39393a;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -1068,10 +1282,14 @@ div.post p {
 =======
 /* line 499, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 509, style.scss */
+>>>>>>> DICK
 #ArchiveContainer {
   margin: 25px 0 0 85px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -1086,6 +1304,9 @@ div.post p {
 =======
 /* line 504, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 514, style.scss */
+>>>>>>> DICK
 #ArchiveContent ul li {
   list-style: none;
   line-height: 40px;
@@ -1095,6 +1316,7 @@ div.post p {
   width: 1000px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -1108,12 +1330,16 @@ div.post p {
 =======
 /* line 513, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 523, style.scss */
+>>>>>>> DICK
 #ArchiveContent {
   font-family: Helvetica,Arial,sans-serif;
   color: #939597;
   font-size: 10px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -1127,6 +1353,9 @@ div.post p {
 =======
 /* line 520, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 530, style.scss */
+>>>>>>> DICK
 #ArchiveContent ul li a {
   position: relative;
   top: 50px;
@@ -1136,6 +1365,7 @@ div.post p {
   color: #FAFAFA;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -1164,10 +1394,14 @@ div.post p {
 =======
 /* line 549, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 559, style.scss */
+>>>>>>> DICK
 #ArchiveContent ul li a:hover {
   color: #939597;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -1181,10 +1415,14 @@ div.post p {
 =======
 /* line 553, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 563, style.scss */
+>>>>>>> DICK
 #ArchiveContent h5 {
   color: #39393a;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  
@@ -1218,6 +1456,9 @@ div.post p {
 =======
 /* line 557, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 567, style.scss */
+>>>>>>> DICK
 #s {
   min-height: 50px;
   min-width: 1000px;
@@ -1233,6 +1474,7 @@ div.post p {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  
 /* line 569, style.scss */
 
@@ -1244,6 +1486,9 @@ div.post p {
 =======
 /* line 569, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 579, style.scss */
+>>>>>>> DICK
 #s:focus {
   outline: none;
 }
@@ -1256,23 +1501,39 @@ div.post p {
 =======
 >>>>>>> parent of 05920cd... Archives!
 /* SINGLE */
+<<<<<<< HEAD
 /* line 577, style.scss */
+=======
+/* line 587, style.scss */
+>>>>>>> DICK
 .single {
   width: 500px;
 }
 
+<<<<<<< HEAD
 /* line 581, style.scss */
+=======
+/* line 591, style.scss */
+>>>>>>> DICK
 #hero {
   position: relative;
 }
 
+<<<<<<< HEAD
 /* line 585, style.scss */
+=======
+/* line 595, style.scss */
+>>>>>>> DICK
 #hero h1 {
   padding: 20px 0 30px 20px;
   color: white;
 }
 
+<<<<<<< HEAD
 /* line 591, style.scss */
+=======
+/* line 601, style.scss */
+>>>>>>> DICK
 #title {
   background-color: #372662;
   padding: 20px 20px 0 20px;
@@ -1296,12 +1557,21 @@ div.post p {
   margin-left: 40%;
 }
 
+<<<<<<< HEAD
 /* line 616, style.scss */
+=======
+} */
+/* line 621, style.scss */
+>>>>>>> DICK
 #posted {
   width: 35%;
 }
 
+<<<<<<< HEAD
 /* line 620, style.scss */
+=======
+/* line 627, style.scss */
+>>>>>>> DICK
 ​
 #posted p {
   margin-right: 200px;
@@ -1310,25 +1580,63 @@ div.post p {
   font-size: 14px;
 }
 
+<<<<<<< HEAD
 /* #posted img{
 	margin-left: 500px;
 	position: absolute;
 	padding-left: 40px;
 } */
 /* line 634, style.scss */
+=======
+/* line 635, style.scss */
+#bottom-rule {
+  border: solid #372662;
+  border-width: 7px 0 0 0;
+  margin-left: 85px;
+  width: 500px;
+  margin: 20px 0 20px 85px;
+}
+
+/* line 643, style.scss */
+#articleauthor a {
+  color: black;
+}
+
+/* line 647, style.scss */
+>>>>>>> DICK
 #articleauthor {
   margin-top: 20px;
   margin-left: 85px;
 }
 
+<<<<<<< HEAD
 /* line 639, style.scss */
+=======
+/* line 655, style.scss */
+.comment {
+  list-style: none;
+  width: 500px;
+}
+
+/* line 660, style.scss */
+#comments_template ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 665, style.scss */
+>>>>>>> DICK
 blockquote p {
   font-family: 'NeubauGrotesk-75Fett';
   font-size: 27px;
   text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 /*
+=======
+/* line 671, style.scss */
+>>>>>>> DICK
 #mediaright {
     
    float: right;
@@ -1336,6 +1644,7 @@ blockquote p {
    position: absolute;
    padding:10px;
 
+<<<<<<< HEAD
 }
 */
 /* line 656, style.scss */
@@ -1359,6 +1668,37 @@ blockquote p {
 
 /* line 646, style.scss */
 #FullArchiveContent ul li a {
+=======
+/* line 678, style.scss */
+.comment-author img {
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+/* line 685, style.scss */
+.comment-author {
+  width: 400px;
+  height: 50px;
+}
+
+/* line 690, style.scss */
+.comment {
+  width: 470px;
+}
+
+/* line 694, style.scss */
+.comment-body {
+  background-color: white;
+  padding: 20px 10px 0 10px;
+  margin-top: 10px;
+  border-top: dotted 1px;
+}
+
+/* line 702, style.scss */
+.comment-body p {
+  width: 400px;
+>>>>>>> DICK
   float: left;
   text-align: center;
   margin-right: 25px;
@@ -1374,6 +1714,7 @@ blockquote p {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 /* line 662, style.scss */
 #FullArchiveContent ul li a:hover {
   color: #939597;
@@ -1397,11 +1738,38 @@ blockquote p {
 #FullArchiveEntry {
   /*		background-color: red;
   */
+=======
+/* line 713, style.scss */
+#comments_template {
+  margin-left: 85px;
+  padding: 0 10px 10px 10px;
+  width: 470px;
+  padding-bottom: 0px;
+  margin-bottom: 140px;
+}
+
+/* line 721, style.scss */
+.says {
+  float: left;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-left: 7px;
+}
+
+/* line 728, style.scss */
+.says a {
+  color: black;
+}
+
+/* line 732, style.scss */
+.fn {
+>>>>>>> DICK
   float: left;
   width: 500px;
   height: 50px;
 }
 
+<<<<<<< HEAD
 /* line 687, style.scss */
 #FullArchiveBoxes {
   margin-top: 25px;
@@ -1445,4 +1813,39 @@ blockquote p {
 >>>>>>> parent of 05920cd... Archives!
 =======
 >>>>>>> parent of 05920cd... Archives!
+=======
+/* line 740, style.scss */
+.fn a {
+  color: black;
+}
+
+/* line 744, style.scss */
+.comment-meta {
+  float: left;
+  margin-left: 50px;
+  position: relative;
+  z-index: 20;
+  bottom: 50px;
+}
+
+/* line 753, style.scss */
+.comment-meta a {
+  color: black;
+}
+
+/* line 758, style.scss */
+#galleria {
+  width: 700px;
+  height: 500px;
+  background: #fff;
+}
+
+/* line 764, style.scss */
+.rightcol {
+  margin: 0px 20px 0 20px;
+  display: block;
+  position: absolute;
+  margin-left: 37%;
+  margin-top: -60px;
+>>>>>>> DICK
 }
