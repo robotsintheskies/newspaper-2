@@ -31,7 +31,7 @@
 
 </head>
 
-
+ 	
 <body>
 	
 
@@ -48,28 +48,16 @@
 
 		 	  <?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
 		 	 
-		 	  <?php /* If this is a daily archive */ if (is_day()) { ?>
-				<h1 class="pagetitle">Archive for <?php the_time('F jS, Y'); ?></h1>
-		 	  <?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
-				<h1 class="pagetitle">Archive for <?php the_time('F, Y'); ?></h1>
-		 	  <?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
-				<h1 class="pagetitle">Archive for <?php the_time('Y'); ?></h1>
-			 
+		 	  
+		 	  
+				<div id="MonthlyArchiveHeader"><h1 class="pagetitle">Archive for <?php the_time('F Y'); ?></h1></div>
+		 	
 		 	 
-		 	  <?php } ?>
+	
 	
 	
 			<?php 
-         global $query_string;
-			$events = get_cat_ID("Events");
-			$iCaughtYou = get_cat_ID("I Caught You");
-			$events = get_cat_ID("Events");
-			$studentGallery = get_cat_ID("Student Gallery");
-			$weRecommend = get_cat_ID("We Recommend");
-			$letters = get_cat_ID("Letters");
-         $cat_string = 
-             "-$iCaughtYou,-$events,-$studentGallery,-$weRecommend,-$letters";
-			query_posts($query_string . "&cat=$cat_string");
+       
 	
 				//Regular expression to hide images within posts
 
@@ -86,61 +74,24 @@
 
 			?>	
 			
-			<div class="archivesContentHolder">
+			<div id="MonthlyArchiveContainer">
 			<?php
 			while (have_posts()) : the_post(); ?>
-					<div 
-					<?php
-					//edits get_post_class, replacing category-featured with ""
-					$featuredClasses = get_post_class(); 
-					$featuredClasses = preg_replace("/category-featured/",'',$featuredClasses);
-			
-					$featuredString = implode(' ',$featuredClasses);
-					echo("class=\"$featuredString archivePost\">");
-					?>
+	  
+			  <div class="post<?php the_category_unlinked(' '); ?>" id="MonthlyArchiveArticle">
+			  	<div class= "post bar <?php the_category_unlinked(' '); ?>"></div>  
+				<a href='<?php the_permalink(); ?>'> <img src="<?php echo get_post_meta($post->ID, 'thumbnail', true); ?>" />
+				</a>
+				<a href=' <?php the_permalink(); ?>' class="post<?php the_category_unlinked(' '); ?>"><h3 ><?php the_title(); ?></h3></a>
+				<p id= 'author'><?php the_author() ?> @ <?php the_time('Y/m/d'); ?></p>
+				
+			  </div>
 						
-						<?php $authorNicename = get_the_author_meta('user_nicename'); ?>
-						<?php if(get_post_meta($post->ID, 'thumbnail', true)):?>
-							<img src="<?php echo get_post_meta($post->ID, 'thumbnail', true); ?>" />
-						<?php endif; ?>	
-						<?php
-						if (! in_category(array('Opinions','Staff Columns','Lifestyle','Columns'))) {	?>
-							<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-						<?php
-						}else{?>
-							<h2><a href="<?php bloginfo('url')?>/author/<?php echo($authorNicename)?>"><?php the_title(); ?></a></h2>
-						<?php	
-						}?>
-						<p class="byline">by <em><?php the_author_posts_link(); ?></em></p>
-						<?php
-						$string = get_the_content_our_way('Read More >>', FALSE);
-						          echo($string);
-						?>
 						
-						<ul class="post-categories">
-						<?php 
-						$categories = get_the_category();      // get an array of category objects
-
-						       foreach ($categories as $category) {    
-						                 if (! $category->parent) {
-						                    continue; 
-						                 }
-						                 if (preg_match('/feature/i',$category->name)) {
-						                    continue; 
-						                 }
-										 $childCatID = $category->cat_ID;
-										 $childName = $category->name;
-										 $childLink = get_category_link($childCatID);   
-						                  break;
-						               }               
-						              echo("<li><a href=$childLink>$childName</a></li>");              
-						?>
-						</ul>
-						<span class="commentNumber"><a href="<?php the_permalink(); ?>"><?php comments_number('(+)','(1)','(%)'); ?></a></span>
-					
-					</div>
 
 			<?php endwhile; ?>
+						</div>
+
 			
 	<?php endif;?>	
 	<div class="clear"></div>

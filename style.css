@@ -192,13 +192,29 @@ body {
   margin-right: 30px;
 }
 
+<<<<<<< HEAD
 /* line 224, style.scss */
+=======
+<<<<<<< HEAD
+/* line 216, style.scss */
+=======
+/* line 215, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .nav ul {
   list-style-type: none;
   text-align: center;
 }
 
+<<<<<<< HEAD
 /* line 230, style.scss */
+=======
+<<<<<<< HEAD
+/* line 222, style.scss */
+=======
+/* line 221, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .nav ul li {
   display: inline;
   padding: 0 20px 0 20px;
@@ -207,7 +223,15 @@ body {
   margin-left: -4px;
 }
 
+<<<<<<< HEAD
 /* line 240, style.scss */
+=======
+<<<<<<< HEAD
+/* line 232, style.scss */
+=======
+/* line 230, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .nav ul li a {
   font-family: 'Helvetica';
   font-size: 10px;
@@ -217,85 +241,205 @@ body {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 /* line 249, style.scss */
+=======
+<<<<<<< HEAD
+/* line 241, style.scss */
+=======
+/* line 239, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .nav ul li:hover a {
   color: #fff;
 }
 
+<<<<<<< HEAD
 /* line 253, style.scss */
+=======
+<<<<<<< HEAD
+/* line 245, style.scss */
+=======
+/* line 243, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .nav .News:hover {
   background-color: #372662;
 }
 
+<<<<<<< HEAD
 /* line 257, style.scss */
+=======
+<<<<<<< HEAD
+/* line 249, style.scss */
+=======
+/* line 247, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .nav .Spotlight:hover {
   background-color: #ed1457;
 }
 
+<<<<<<< HEAD
 /* line 261, style.scss */
+=======
+<<<<<<< HEAD
+/* line 253, style.scss */
+=======
+/* line 251, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .nav .Opinion:hover {
   background-color: #f7923f;
 }
 
+<<<<<<< HEAD
 /* line 265, style.scss */
+=======
+<<<<<<< HEAD
+/* line 257, style.scss */
+=======
+/* line 255, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .nav .Lifestyle:hover {
   background-color: #53c2bc;
 }
 
+<<<<<<< HEAD
 /* line 269, style.scss */
+=======
+<<<<<<< HEAD
+/* line 261, style.scss */
+=======
+/* line 259, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .nav .Events:hover {
   background-color: #00b26e;
 }
 
+<<<<<<< HEAD
 /* line 273, style.scss */
+=======
+<<<<<<< HEAD
+/* line 265, style.scss */
+=======
+/* line 263, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .nav .Inspiration:hover {
   background-color: #f7be3c;
 }
 
+<<<<<<< HEAD
 /* line 277, style.scss */
+=======
+<<<<<<< HEAD
+/* line 269, style.scss */
+=======
+/* line 267, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .nav .News {
   border-top: solid #372662;
   border-width: 7px 0 0  0;
 }
 
+<<<<<<< HEAD
 /* line 281, style.scss */
+=======
+<<<<<<< HEAD
+/* line 273, style.scss */
+=======
+/* line 271, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .nav .Spotlight {
   border-top: solid #ed1457;
   border-width: 7px 0 0  0;
 }
 
+<<<<<<< HEAD
 /* line 285, style.scss */
+=======
+<<<<<<< HEAD
+/* line 277, style.scss */
+=======
+/* line 275, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .nav .Opinion {
   border-top: solid #f7923f;
   border-width: 7px 0 0  0;
 }
 
+<<<<<<< HEAD
 /* line 289, style.scss */
+=======
+<<<<<<< HEAD
+/* line 281, style.scss */
+=======
+/* line 279, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .nav .Lifestyle {
   border-top: solid #53c2bc;
   border-width: 7px 0 0  0;
 }
 
+<<<<<<< HEAD
 /* line 293, style.scss */
+=======
+<<<<<<< HEAD
+/* line 285, style.scss */
+=======
+/* line 283, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .nav .Events {
   border-top: solid #00b26e;
   border-width: 7px 0 0  0;
 }
 
+<<<<<<< HEAD
 /* line 297, style.scss */
+=======
+<<<<<<< HEAD
+/* line 289, style.scss */
+=======
+/* line 287, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .nav .Inspiration {
   border-top: solid #f7be3c;
   border-width: 7px 0 0  0;
 }
 
 /* FEATURE */
+<<<<<<< HEAD
 /* line 303, style.scss */
+=======
+<<<<<<< HEAD
+/* line 295, style.scss */
+=======
+/* line 293, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #feature {
   width: 1870px;
   background-repeat: true;
 }
 
+<<<<<<< HEAD
 /* line 315, style.scss */
+=======
+<<<<<<< HEAD
+/* line 307, style.scss */
+=======
+/* line 305, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #feature-title {
   padding: 50px 0 100px 85px;
   margin-bottom: 10px;
@@ -304,21 +448,45 @@ body {
   color: #fff;
 }
 
+<<<<<<< HEAD
 /* line 324, style.scss */
+=======
+<<<<<<< HEAD
+/* line 316, style.scss */
+=======
+/* line 314, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #feature-title a {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 /* line 330, style.scss */
+=======
+<<<<<<< HEAD
+/* line 322, style.scss */
+=======
+/* line 320, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #feature-title p {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 /* line 337, style.scss */
+=======
+<<<<<<< HEAD
+/* line 329, style.scss */
+=======
+/* line 327, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #author {
   font-family: 'Helvetica';
   color: #6c7370;
@@ -327,14 +495,30 @@ body {
 }
 
 /* POST FEATURE */
+<<<<<<< HEAD
 /* line 346, style.scss */
+=======
+<<<<<<< HEAD
+/* line 338, style.scss */
+=======
+/* line 336, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #post-wrapper {
   margin: 40px 0 0 45px;
   position: absolute;
   width: 1770px;
 }
 
+<<<<<<< HEAD
 /* line 352, style.scss */
+=======
+<<<<<<< HEAD
+/* line 344, style.scss */
+=======
+/* line 342, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .post {
   float: left;
   padding-left: 40px;
@@ -342,19 +526,43 @@ body {
   width: 250px;
 }
 
+<<<<<<< HEAD
 /* line 359, style.scss */
+=======
+<<<<<<< HEAD
+/* line 351, style.scss */
+=======
+/* line 349, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .post img {
   position: relative;
   width: 100%;
 }
 
+<<<<<<< HEAD
 /* line 364, style.scss */
+=======
+<<<<<<< HEAD
+/* line 356, style.scss */
+=======
+/* line 354, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .post a {
   padding: 10px 0 5px 0;
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 /* line 369, style.scss */
+=======
+<<<<<<< HEAD
+/* line 361, style.scss */
+=======
+/* line 359, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .author {
   font-family: 'Helvetica';
   color: #39393a;
@@ -362,7 +570,15 @@ body {
   text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 /* line 376, style.scss */
+=======
+<<<<<<< HEAD
+/* line 368, style.scss */
+=======
+/* line 366, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 div.post p {
   font-family: 'Helvetica';
   color: #939597;
@@ -372,7 +588,15 @@ div.post p {
   margin: 5px 0 0 0;
 }
 
+<<<<<<< HEAD
 /* line 386, style.scss */
+=======
+<<<<<<< HEAD
+/* line 378, style.scss */
+=======
+/* line 376, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .post:hover .bar.news {
   width: 210px;
   height: 15px;
@@ -381,7 +605,15 @@ div.post p {
   background-color: #372662;
 }
 
+<<<<<<< HEAD
 /* line 390, style.scss */
+=======
+<<<<<<< HEAD
+/* line 382, style.scss */
+=======
+/* line 380, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .post:hover .bar.spotlight {
   width: 210px;
   height: 15px;
@@ -390,7 +622,15 @@ div.post p {
   background-color: #ed1457;
 }
 
+<<<<<<< HEAD
 /* line 394, style.scss */
+=======
+<<<<<<< HEAD
+/* line 386, style.scss */
+=======
+/* line 384, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .post:hover .bar.opinion {
   width: 210px;
   height: 15px;
@@ -399,7 +639,15 @@ div.post p {
   background-color: #f7923f;
 }
 
+<<<<<<< HEAD
 /* line 398, style.scss */
+=======
+<<<<<<< HEAD
+/* line 390, style.scss */
+=======
+/* line 388, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .post:hover .bar.lifestyle {
   width: 210px;
   height: 15px;
@@ -408,7 +656,15 @@ div.post p {
   background-color: #53c2bc;
 }
 
+<<<<<<< HEAD
 /* line 402, style.scss */
+=======
+<<<<<<< HEAD
+/* line 394, style.scss */
+=======
+/* line 392, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .post:hover .bar.events {
   width: 210px;
   height: 15px;
@@ -417,7 +673,15 @@ div.post p {
   background-color: #00b26e;
 }
 
+<<<<<<< HEAD
 /* line 406, style.scss */
+=======
+<<<<<<< HEAD
+/* line 398, style.scss */
+=======
+/* line 396, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .post:hover .bar.inspiration {
   width: 210px;
   height: 15px;
@@ -427,7 +691,15 @@ div.post p {
 }
 
 /* CONTENT */
+<<<<<<< HEAD
 /* line 412, style.scss */
+=======
+<<<<<<< HEAD
+/* line 404, style.scss */
+=======
+/* line 402, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #content-feature {
   padding: 20px 40px 60px 85px;
   background-image: url(../images/wind-farm-purple.png);
@@ -435,12 +707,28 @@ div.post p {
   width: 2300px;
 }
 
+<<<<<<< HEAD
 /* line 422, style.scss */
+=======
+<<<<<<< HEAD
+/* line 414, style.scss */
+=======
+/* line 412, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #content-feature-bg {
   height: 100px;
 }
 
+<<<<<<< HEAD
 /* line 426, style.scss */
+=======
+<<<<<<< HEAD
+/* line 418, style.scss */
+=======
+/* line 416, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #quote {
   float: right;
   margin-right: 20%;
@@ -449,7 +737,15 @@ div.post p {
   color: #fff;
 }
 
+<<<<<<< HEAD
 /* line 434, style.scss */
+=======
+<<<<<<< HEAD
+/* line 426, style.scss */
+=======
+/* line 424, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #content-feature-title {
   width: 500px;
   color: #372662;
@@ -457,7 +753,15 @@ div.post p {
   padding: 40px 0 50px 85px;
 }
 
+<<<<<<< HEAD
 /* line 442, style.scss */
+=======
+<<<<<<< HEAD
+/* line 434, style.scss */
+=======
+/* line 432, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #content-author p {
   font-family: 'NeubauGrotesk-75Fett';
   font-size: 22px;
@@ -466,7 +770,15 @@ div.post p {
   position: relative;
 }
 
+<<<<<<< HEAD
 /* line 450, style.scss */
+=======
+<<<<<<< HEAD
+/* line 442, style.scss */
+=======
+/* line 440, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #article:first-line {
   text-transform: uppercase;
   font-family: 'georgia';
@@ -474,13 +786,29 @@ div.post p {
   font-size: 15px;
 }
 
+<<<<<<< HEAD
 /* line 458, style.scss */
+=======
+<<<<<<< HEAD
+/* line 450, style.scss */
+=======
+/* line 448, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #article {
   padding: 40px 30px 40px 0px;
   width: 2300px;
 }
 
+<<<<<<< HEAD
 /* line 464, style.scss */
+=======
+<<<<<<< HEAD
+/* line 456, style.scss */
+=======
+/* line 454, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 .columndemo {
   -moz-column-count: 4;
   -moz-column-gap: 30px;
@@ -491,7 +819,15 @@ div.post p {
   text-align: left;
 }
 
+<<<<<<< HEAD
 /* line 478, style.scss */
+=======
+<<<<<<< HEAD
+/* line 470, style.scss */
+=======
+/* line 467, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #FooterWrapper {
   width: 100%;
   height: 40px;
@@ -504,7 +840,15 @@ div.post p {
   opacity: 0.8;
 }
 
+<<<<<<< HEAD
 /* line 491, style.scss */
+=======
+<<<<<<< HEAD
+/* line 483, style.scss */
+=======
+/* line 477, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #FooterWrapper ul li {
   list-style: none;
   display: inline;
@@ -512,78 +856,245 @@ div.post p {
   font-size: 12px;
 }
 
+<<<<<<< HEAD
 /* line 498, style.scss */
+=======
+<<<<<<< HEAD
+/* line 490, style.scss */
+=======
+/* line 484, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #FooterWrapper a {
   color: #939597;
   padding-right: 20px;
 }
 
+<<<<<<< HEAD
 /* line 503, style.scss */
+=======
+<<<<<<< HEAD
+/* line 495, style.scss */
+=======
+/* line 489, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #FooterWrapper a:hover {
   color: #39393a;
 }
 
+<<<<<<< HEAD
 /* line 507, style.scss */
+=======
+<<<<<<< HEAD
+/* line 499, style.scss */
+=======
+/* line 493, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #ArchiveContainer {
   margin: 25px 0 0 85px;
 }
 
+<<<<<<< HEAD
 /* line 512, style.scss */
+=======
+<<<<<<< HEAD
+/* line 504, style.scss */
+=======
+/*ARCHIVES*/
+/* line 500, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #ArchiveContent ul li {
   list-style: none;
   line-height: 40px;
-  margin-bottom: 50px;
-  background-color: red;
-  height: 300px;
-  width: 1000px;
+  margin-left: -40px;
+  margin-bottom: 25px;
+  background-color: #939597;
+  min-height: 135;
+  width: 1170;
 }
 
+<<<<<<< HEAD
 /* line 521, style.scss */
+=======
+<<<<<<< HEAD
+/* line 513, style.scss */
+=======
+/* line 510, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #ArchiveContent {
   font-family: Helvetica,Arial,sans-serif;
   color: #939597;
   font-size: 10px;
 }
 
+<<<<<<< HEAD
 /* line 528, style.scss */
+=======
+<<<<<<< HEAD
+/* line 520, style.scss */
+=======
+/* line 517, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #ArchiveContent ul li a {
   position: relative;
   top: 50px;
   left: 50px;
-  font-family: "NeubauGrotesk-75Fett";
+  font-family: "NeubauGrotesk-65Halbfett";
   font-size: 50px;
   color: #FAFAFA;
+  text-decoration: none;
 }
 
+/* line 529, style.scss */
+#ArchiveContent ul li:nth-child(1) {
+  background-color: #252525;
+}
+
+/* line 533, style.scss */
+#ArchiveContent ul li:nth-child(1):hover {
+  background-color: #464646;
+}
+
+/* line 537, style.scss */
+#ArchiveContent ul li:nth-child(2) {
+  background-color: #464646;
+}
+
+/* line 541, style.scss */
+#ArchiveContent ul li:nth-child(2):hover {
+  background-color: #6b6b6b;
+}
+
+/* line 546, style.scss */
+#ArchiveContent ul li:nth-child(3) {
+  background-color: #6b6b6b;
+}
+
+/* line 550, style.scss */
+#ArchiveContent ul li:nth-child(3):hover {
+  background-color: #989898;
+}
+
+/* line 554, style.scss */
+#ArchiveContent ul li:nth-child(4) {
+  background-color: #989898;
+}
+
+/* line 558, style.scss */
+#ArchiveContent ul li:nth-child(4):hover {
+  background-color: #b6b6b6;
+}
+
+/* line 562, style.scss */
+#ArchiveContent ul li:nth-child(5) {
+  background-color: #b6b6b6;
+}
+
+<<<<<<< HEAD
 /* line 557, style.scss */
+=======
+<<<<<<< HEAD
+/* line 549, style.scss */
+=======
+/* line 566, style.scss */
+#ArchiveContent ul li:nth-child(5):hover {
+  background-color: #d9d9d9;
+}
+
+/* line 570, style.scss */
+#ArchiveContent ul li:nth-child(6) {
+  background-color: #d9d9d9;
+}
+
+/* line 574, style.scss */
+#ArchiveContent ul li:nth-child(6):hover {
+  background-color: #939597;
+}
+
+/* line 580, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #ArchiveContent ul li a:hover {
   color: #939597;
 }
 
+<<<<<<< HEAD
 /* line 561, style.scss */
+=======
+<<<<<<< HEAD
+/* line 553, style.scss */
+=======
+/* line 584, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #ArchiveContent h5 {
   color: #39393a;
 }
 
+<<<<<<< HEAD
 /* line 565, style.scss */
-#s {
-  min-height: 50px;
-  min-width: 1000px;
-  box-shadow: none;
-  border: none;
-  /*	background-color:#FAFAFA;
-  */
-  font-family: Helvetica,Arial,sans-serif;
-  font-weight: bold;
-  font-size: 48px;
-  color: #939597;
+=======
+<<<<<<< HEAD
+/* line 557, style.scss */
+=======
+/* line 588, style.scss */
+#ArchiveHeader {
+  float: left;
+  width: 1170px;
+  height: 50px;
+  margin-bottom: 10px;
 }
 
+/* line 595, style.scss */
+#ArchiveEntry {
+  width: 400px;
+  height: 50px;
+  float: left;
+}
+
+/* line 601, style.scss */
+#ArchiveBoxes {
+  float: left;
+}
+
+/* line 606, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
+#s {
+  float: right;
+  height: 50px;
+  width: 500px;
+  padding-left: 10px;
+  box-shadow: none;
+  border: none;
+  background-color: #FAFAFA;
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  color: #939597;
+  text-transform: lowercase;
+  text-align: left;
+}
+
+<<<<<<< HEAD
 /* line 577, style.scss */
+=======
+<<<<<<< HEAD
+/* line 569, style.scss */
+=======
+/* line 622, style.scss */
+>>>>>>> Archives!
+>>>>>>> Archives!
 #s:focus {
   outline: none;
 }
 
+<<<<<<< HEAD
 /* SINGLE */
 /* line 585, style.scss */
 .single {
@@ -723,6 +1234,7 @@ blockquote p {
 
 /* line 711, style.scss */
 #comments_template {
+<<<<<<< HEAD
   margin-left: 85px;
   padding: 0 10px 10px 10px;
   width: 470px;
@@ -785,4 +1297,105 @@ blockquote p {
   position: absolute;
   margin-left: 35%;
   margin-top: -60px;
+=======
+  padding-left: 85px;
+=======
+/*FULL ARCHIVE*/
+/* line 628, style.scss */
+#FullArchiveContainer {
+  margin: 25px 0 0 85px;
+}
+
+/* line 635, style.scss */
+#FullArchiveContent ul li {
+  list-style: none;
+  line-height: 40px;
+  float: left;
+}
+
+/* line 646, style.scss */
+#FullArchiveContent ul li a {
+  float: left;
+  text-align: center;
+  margin-right: 25px;
+  margin-bottom: 26px;
+  background-color: #939597;
+  width: 214px;
+  height: 75px;
+  position: relative;
+  top: 10px;
+  font-family: "NeubauGrotesk-55Normal";
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+/* line 662, style.scss */
+#FullArchiveContent ul li a:hover {
+  color: #939597;
+  background-color: #39393a;
+}
+
+/* line 668, style.scss */
+#FullArchiveContent h5 {
+  color: #39393a;
+}
+
+/* line 672, style.scss */
+#FullArchiveHeader {
+  float: left;
+  width: 1170px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+/* line 679, style.scss */
+#FullArchiveEntry {
+  /*		background-color: red;
+  */
+  float: left;
+  width: 500px;
+  height: 50px;
+}
+
+/* line 687, style.scss */
+#FullArchiveBoxes {
+  margin-top: 25px;
+  float: left;
+  width: 1170px;
+}
+
+/*MONTHLY ARCHIVE*/
+/* line 697, style.scss */
+#MonthlyArchiveHeader {
+  margin-left: 85px;
+  height: 50px;
+  width: 800px;
+  /*	background-color: red;
+  */
+}
+
+/* line 704, style.scss */
+#MonthlyArchiveContainer {
+  margin-top: 25px;
+  margin-left: 50px;
+  width: 1170px;
+  height: 300px;
+  float: left;
+  /*	background-color: red
+  */
+}
+
+/* line 713, style.scss */
+#MonthlyArchiveArticle {
+  float: left;
+  margin-bottom: 35px;
+  height: 200px;
+}
+
+/* line 719, style.scss */
+#MonthlyArchiveArticle h3 {
+  font-size: 18px;
+>>>>>>> Archives!
+>>>>>>> Archives!
 }
