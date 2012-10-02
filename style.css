@@ -200,12 +200,15 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 224, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 216, style.scss */
@@ -222,12 +225,19 @@ body {
 =======
 /* line 216, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 216, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .nav ul {
   list-style-type: none;
   text-align: center;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,6 +247,8 @@ body {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 222, style.scss */
@@ -253,7 +265,13 @@ body {
 =======
 /* line 222, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 222, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .nav ul li {
   display: inline;
   padding: 0 20px 0 20px;
@@ -265,12 +283,15 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 240, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 232, style.scss */
@@ -287,7 +308,13 @@ body {
 =======
 /* line 232, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 232, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .nav ul li a {
   font-family: 'Helvetica';
   font-size: 10px;
@@ -300,12 +327,15 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 249, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 241, style.scss */
@@ -322,11 +352,18 @@ body {
 =======
 /* line 241, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 241, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .nav ul li:hover a {
   color: #fff;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -336,6 +373,8 @@ body {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 245, style.scss */
@@ -352,11 +391,18 @@ body {
 =======
 /* line 245, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 245, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .nav .News:hover {
   background-color: #372662;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -366,6 +412,8 @@ body {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 249, style.scss */
@@ -382,11 +430,18 @@ body {
 =======
 /* line 249, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 249, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .nav .Spotlight:hover {
   background-color: #ed1457;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -396,6 +451,8 @@ body {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 253, style.scss */
@@ -412,11 +469,18 @@ body {
 =======
 /* line 253, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 253, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .nav .Opinion:hover {
   background-color: #f7923f;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -426,6 +490,8 @@ body {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 257, style.scss */
@@ -442,11 +508,18 @@ body {
 =======
 /* line 257, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 257, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .nav .Lifestyle:hover {
   background-color: #53c2bc;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -456,6 +529,8 @@ body {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 261, style.scss */
@@ -472,11 +547,18 @@ body {
 =======
 /* line 261, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 261, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .nav .Events:hover {
   background-color: #00b26e;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -486,6 +568,8 @@ body {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 265, style.scss */
@@ -502,11 +586,18 @@ body {
 =======
 /* line 265, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 265, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .nav .Inspiration:hover {
   background-color: #f7be3c;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -516,6 +607,8 @@ body {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 269, style.scss */
@@ -532,12 +625,19 @@ body {
 =======
 /* line 269, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 269, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .nav .News {
   border-top: solid #372662;
   border-width: 7px 0 0  0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -547,6 +647,8 @@ body {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 273, style.scss */
@@ -563,12 +665,19 @@ body {
 =======
 /* line 273, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 273, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .nav .Spotlight {
   border-top: solid #ed1457;
   border-width: 7px 0 0  0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -578,6 +687,8 @@ body {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 277, style.scss */
@@ -594,12 +705,19 @@ body {
 =======
 /* line 277, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 277, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .nav .Opinion {
   border-top: solid #f7923f;
   border-width: 7px 0 0  0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -609,6 +727,8 @@ body {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 281, style.scss */
@@ -625,12 +745,19 @@ body {
 =======
 /* line 281, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 281, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .nav .Lifestyle {
   border-top: solid #53c2bc;
   border-width: 7px 0 0  0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -640,6 +767,8 @@ body {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 285, style.scss */
@@ -656,12 +785,19 @@ body {
 =======
 /* line 285, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 285, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .nav .Events {
   border-top: solid #00b26e;
   border-width: 7px 0 0  0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -671,6 +807,8 @@ body {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 289, style.scss */
@@ -687,13 +825,20 @@ body {
 =======
 /* line 289, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 289, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .nav .Inspiration {
   border-top: solid #f7be3c;
   border-width: 7px 0 0  0;
 }
 
 /* FEATURE */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -704,6 +849,8 @@ body {
  
 >>>>>>> fixes
 =======
+=======
+>>>>>>> k
  
 >>>>>>> Archives
 /* line 295, style.scss */
@@ -720,12 +867,19 @@ body {
 =======
 /* line 295, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 295, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #feature {
   width: 1870px;
   background-repeat: true;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -735,6 +889,8 @@ body {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 307, style.scss */
@@ -751,7 +907,13 @@ body {
 =======
 /* line 307, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 307, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #feature-title {
   padding: 50px 0 100px 85px;
   margin-bottom: 10px;
@@ -763,12 +925,15 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 324, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 316, style.scss */
@@ -785,7 +950,13 @@ body {
 =======
 /* line 316, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 316, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #feature-title a {
   text-decoration: none;
   color: #fff;
@@ -795,12 +966,15 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 330, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 322, style.scss */
@@ -817,7 +991,13 @@ body {
 =======
 /* line 322, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 322, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #feature-title p {
   text-decoration: none;
   color: #fff;
@@ -827,12 +1007,15 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 337, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 329, style.scss */
@@ -849,7 +1032,13 @@ body {
 =======
 /* line 329, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 329, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #author {
   font-family: 'Helvetica';
   color: #6c7370;
@@ -861,6 +1050,7 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 346, style.scss */
 =======
 <<<<<<< HEAD
@@ -868,6 +1058,8 @@ body {
  
 >>>>>>> fixes
 =======
+=======
+>>>>>>> k
  
 >>>>>>> Archives
 /* line 338, style.scss */
@@ -884,7 +1076,13 @@ body {
 =======
 /* line 338, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 338, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #post-wrapper {
   margin: 40px 0 0 45px;
   position: absolute;
@@ -894,12 +1092,15 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 352, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 344, style.scss */
@@ -916,7 +1117,13 @@ body {
 =======
 /* line 344, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 344, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .post {
   float: left;
   padding-left: 40px;
@@ -927,12 +1134,15 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 359, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 351, style.scss */
@@ -949,12 +1159,19 @@ body {
 =======
 /* line 351, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 351, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .post img {
   position: relative;
   width: 100%;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -964,6 +1181,8 @@ body {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 356, style.scss */
@@ -980,12 +1199,19 @@ body {
 =======
 /* line 356, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 356, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .post a {
   padding: 10px 0 5px 0;
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -995,6 +1221,8 @@ body {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 361, style.scss */
@@ -1011,7 +1239,13 @@ body {
 =======
 /* line 361, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 361, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .author {
   font-family: 'Helvetica';
   color: #39393a;
@@ -1022,12 +1256,15 @@ body {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 376, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 368, style.scss */
@@ -1044,7 +1281,13 @@ body {
 =======
 /* line 368, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 368, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 div.post p {
   font-family: 'Helvetica';
   color: #939597;
@@ -1057,12 +1300,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 386, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 378, style.scss */
@@ -1079,7 +1325,13 @@ div.post p {
 =======
 /* line 378, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 378, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .post:hover .bar.news {
   width: 210px;
   height: 15px;
@@ -1091,12 +1343,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 390, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 382, style.scss */
@@ -1113,7 +1368,13 @@ div.post p {
 =======
 /* line 382, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 382, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .post:hover .bar.spotlight {
   width: 210px;
   height: 15px;
@@ -1125,12 +1386,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 394, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 386, style.scss */
@@ -1147,7 +1411,13 @@ div.post p {
 =======
 /* line 386, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 386, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .post:hover .bar.opinion {
   width: 210px;
   height: 15px;
@@ -1159,12 +1429,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 398, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 390, style.scss */
@@ -1181,7 +1454,13 @@ div.post p {
 =======
 /* line 390, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 390, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .post:hover .bar.lifestyle {
   width: 210px;
   height: 15px;
@@ -1193,12 +1472,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 402, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 394, style.scss */
@@ -1215,7 +1497,13 @@ div.post p {
 =======
 /* line 394, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 394, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .post:hover .bar.events {
   width: 210px;
   height: 15px;
@@ -1227,12 +1515,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 406, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 398, style.scss */
@@ -1249,7 +1540,13 @@ div.post p {
 =======
 /* line 398, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 398, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .post:hover .bar.inspiration {
   width: 210px;
   height: 15px;
@@ -1262,12 +1559,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 412, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 404, style.scss */
@@ -1284,7 +1584,13 @@ div.post p {
 =======
 /* line 404, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 404, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #content-feature {
   padding: 20px 40px 60px 85px;
   background-image: url(../images/wind-farm-purple.png);
@@ -1295,12 +1601,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 422, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 414, style.scss */
@@ -1317,11 +1626,18 @@ div.post p {
 =======
 /* line 414, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 414, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #content-feature-bg {
   height: 100px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1331,6 +1647,8 @@ div.post p {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 418, style.scss */
@@ -1347,7 +1665,13 @@ div.post p {
 =======
 /* line 418, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 418, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #quote {
   float: right;
   margin-right: 20%;
@@ -1359,12 +1683,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 434, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 426, style.scss */
@@ -1381,7 +1708,13 @@ div.post p {
 =======
 /* line 426, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 426, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #content-feature-title {
   width: 500px;
   color: #372662;
@@ -1392,12 +1725,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 442, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 434, style.scss */
@@ -1414,7 +1750,13 @@ div.post p {
 =======
 /* line 434, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 434, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #content-author p {
   font-family: 'NeubauGrotesk-75Fett';
   font-size: 22px;
@@ -1426,12 +1768,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 450, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 442, style.scss */
@@ -1448,7 +1793,13 @@ div.post p {
 =======
 /* line 442, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 442, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #article:first-line {
   text-transform: uppercase;
   font-family: 'georgia';
@@ -1459,12 +1810,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 458, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 450, style.scss */
@@ -1481,12 +1835,19 @@ div.post p {
 =======
 /* line 450, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 450, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #article {
   padding: 40px 30px 40px 0px;
   width: 2300px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1496,6 +1857,8 @@ div.post p {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 456, style.scss */
@@ -1512,7 +1875,13 @@ div.post p {
 =======
 /* line 456, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 456, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 .columndemo {
   -moz-column-count: 4;
   -moz-column-gap: 30px;
@@ -1526,12 +1895,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 478, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 470, style.scss */
@@ -1548,7 +1920,13 @@ div.post p {
 =======
 /* line 470, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 470, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #FooterWrapper {
   width: 100%;
   height: 40px;
@@ -1564,12 +1942,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 491, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 483, style.scss */
@@ -1586,7 +1967,13 @@ div.post p {
 =======
 /* line 483, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 483, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #FooterWrapper ul li {
   list-style: none;
   display: inline;
@@ -1597,12 +1984,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 498, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 490, style.scss */
@@ -1619,12 +2009,19 @@ div.post p {
 =======
 /* line 490, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 490, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #FooterWrapper a {
   color: #939597;
   padding-right: 20px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1634,6 +2031,8 @@ div.post p {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 495, style.scss */
@@ -1650,11 +2049,18 @@ div.post p {
 =======
 /* line 495, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 495, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #FooterWrapper a:hover {
   color: #39393a;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1664,6 +2070,8 @@ div.post p {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 499, style.scss */
@@ -1680,11 +2088,18 @@ div.post p {
 =======
 /* line 499, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 499, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #ArchiveContainer {
   margin: 25px 0 0 85px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1694,6 +2109,8 @@ div.post p {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 504, style.scss */
@@ -1711,7 +2128,13 @@ div.post p {
 =======
 /* line 504, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 504, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #ArchiveContent ul li {
   list-style: none;
   line-height: 40px;
@@ -1724,12 +2147,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 521, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 513, style.scss */
@@ -1746,7 +2172,13 @@ div.post p {
 =======
 /* line 513, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 513, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #ArchiveContent {
   font-family: Helvetica,Arial,sans-serif;
   color: #939597;
@@ -1756,12 +2188,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 528, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 520, style.scss */
@@ -1778,7 +2213,13 @@ div.post p {
 =======
 /* line 520, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 520, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #ArchiveContent ul li a {
   position: relative;
   top: 50px;
@@ -1791,12 +2232,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 557, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 549, style.scss */
@@ -1828,11 +2272,18 @@ div.post p {
 =======
 /* line 549, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 549, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #ArchiveContent ul li a:hover {
   color: #939597;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1842,6 +2293,8 @@ div.post p {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 553, style.scss */
@@ -1858,11 +2311,18 @@ div.post p {
 =======
 /* line 553, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 553, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #ArchiveContent h5 {
   color: #39393a;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1872,6 +2332,8 @@ div.post p {
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 557, style.scss */
@@ -1908,7 +2370,13 @@ div.post p {
 =======
 /* line 557, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 557, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #s {
   min-height: 50px;
   min-width: 1000px;
@@ -1925,12 +2393,15 @@ div.post p {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* line 577, style.scss */
 =======
 <<<<<<< HEAD
 =======
 =======
 >>>>>>> Archives
+=======
+>>>>>>> k
  
 >>>>>>> fixes
 /* line 569, style.scss */
@@ -1947,13 +2418,22 @@ div.post p {
 =======
 /* line 569, style.scss */
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+/* line 569, style.scss */
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 #s:focus {
   outline: none;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
  
+=======
+>>>>>>> parent of 05920cd... Archives!
 =======
 >>>>>>> parent of 05920cd... Archives!
 /* SINGLE */
@@ -2161,6 +2641,7 @@ blockquote p {
 =======
   padding-left: 85px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 /*FULL ARCHIVE*/
 /* line 628, style.scss */
@@ -2268,5 +2749,10 @@ blockquote p {
 =======
 =======
 >>>>>>> parent of 05920cd... Archives!
+<<<<<<< HEAD
 >>>>>>> Archives
+=======
+=======
+>>>>>>> parent of 05920cd... Archives!
+>>>>>>> k
 }
