@@ -20,9 +20,18 @@ else{
    <meta name="description" content="<?php bloginfo('description'); ?>">
    <link rel="stylesheet" href="<?php bloginfo("stylesheet_url"); ?>" type="text/css" media="screen" />
 <link rel="shortcut icon" href="<?php bloginfo('url') ?>/wp-content/themes/newspaper/images/favicon.ico">
-   	<!--Type Kit-->
-	<script type="text/javascript" src="http://use.typekit.com/ojk4cnw.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+ 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+ <script src="/galleria/galleria-1.2.8.min.js"></script>
+  <script src="http://localhost/all-nighter/wp-content/themes/newspaper-2/galleria/galleria-1.2.8.min.js"></script>
+  <script src="http://localhost/all-nighter/wp-content/themes/newspaper-2/galleria/themes/classic/galleria.classic.js"></script>
+
+ <script>
+            Galleria.loadTheme('http://localhost/all-nighter/wp-content/themes/newspaper-2/galleria/themes/classic/galleria.classic.js');
+            Galleria.run('#galleria');
+</script>
+
+
    <?php wp_head(); ?>
    
    <?php      
@@ -90,7 +99,7 @@ else{
 	 </div> 	  
    
    	<div id="articleauthor">
-	<h3> <?php risd_coauthors_posts_links('Written by ',', Images by ');?> on <?php the_date('m/d/y'); ?> 
+	<h3> <?php risd_coauthors_posts_links('by ',', Images by ');?> on <?php the_time('m/d/y'); ?> 
   </h3></div>
 
 	 <div id='posted'>
@@ -101,7 +110,7 @@ else{
    
       <?php endif; ?>
       
-      
+      <hr id='bottom-rule'>
       <div id="comments_template">
          <?php comments_template(); ?>
       </div>

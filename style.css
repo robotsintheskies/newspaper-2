@@ -50,37 +50,45 @@ h5 {
 }
 
 /* line 89, style.scss */
+h6 {
+  font-family: 'NeubauGrotesk-35Leicht';
+  font-size: 14px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+/* line 97, style.scss */
 p {
   font-family: 'Georgia';
   font-size: 14px;
 }
 
-/* line 95, style.scss */
+/* line 103, style.scss */
 .news {
   color: #372662;
 }
 
-/* line 99, style.scss */
+/* line 107, style.scss */
 .spotlight {
   color: #ed1457;
 }
 
-/* line 103, style.scss */
+/* line 111, style.scss */
 .opinion {
   color: #f7923f;
 }
 
-/* line 107, style.scss */
+/* line 115, style.scss */
 .lifestyle {
   color: #53c2bc;
 }
 
-/* line 111, style.scss */
+/* line 119, style.scss */
 .events {
   color: #00b26e;
 }
 
-/* line 115, style.scss */
+/* line 123, style.scss */
 .inspiration {
   color: #f7be3c;
 }
@@ -117,43 +125,43 @@ p {
 }
 
 /* HEADER */
-/* line 153, style.scss */
+/* line 161, style.scss */
 html {
   margin: 0;
   padding: 0;
 }
 
-/* line 158, style.scss */
+/* line 166, style.scss */
 body {
   margin: 0;
   padding: 0;
 }
 
-/* line 163, style.scss */
+/* line 171, style.scss */
 #menu {
   margin: 5px;
 }
 
-/* line 169, style.scss */
+/* line 177, style.scss */
 #header {
   height: 175px;
   width: 100%;
 }
 
-/* line 174, style.scss */
+/* line 182, style.scss */
 #title-rule {
   padding-bottom: 15px;
   border: solid #39393a;
   border-width: 7px 0 0  0;
 }
 
-/* line 180, style.scss */
+/* line 188, style.scss */
 #blog-title {
   float: left;
   padding-left: 85px;
 }
 
-/* line 187, style.scss */
+/* line 195, style.scss */
 #home {
   font-family: 'NeubauGrotesk-65Halbfett';
   font-size: 32px;
@@ -161,7 +169,7 @@ body {
   color: #626366;
 }
 
-/* line 194, style.scss */
+/* line 202, style.scss */
 #issue {
   font-family: 'Helvetica';
   font-size: 15px;
@@ -169,14 +177,14 @@ body {
   color: #39393a;
 }
 
-/* line 202, style.scss */
+/* line 210, style.scss */
 #date {
   padding-top: -5px;
   color: #39393A;
 }
 
 /* NAV */
-/* line 209, style.scss */
+/* line 217, style.scss */
 .nav {
   float: right;
   width: 600px;
@@ -184,13 +192,13 @@ body {
   margin-right: 30px;
 }
 
-/* line 216, style.scss */
+/* line 224, style.scss */
 .nav ul {
   list-style-type: none;
   text-align: center;
 }
 
-/* line 222, style.scss */
+/* line 230, style.scss */
 .nav ul li {
   display: inline;
   padding: 0 20px 0 20px;
@@ -199,7 +207,7 @@ body {
   margin-left: -4px;
 }
 
-/* line 232, style.scss */
+/* line 240, style.scss */
 .nav ul li a {
   font-family: 'Helvetica';
   font-size: 10px;
@@ -209,85 +217,85 @@ body {
   text-decoration: none;
 }
 
-/* line 241, style.scss */
+/* line 249, style.scss */
 .nav ul li:hover a {
   color: #fff;
 }
 
-/* line 245, style.scss */
+/* line 253, style.scss */
 .nav .News:hover {
   background-color: #372662;
 }
 
-/* line 249, style.scss */
+/* line 257, style.scss */
 .nav .Spotlight:hover {
   background-color: #ed1457;
 }
 
-/* line 253, style.scss */
+/* line 261, style.scss */
 .nav .Opinion:hover {
   background-color: #f7923f;
 }
 
-/* line 257, style.scss */
+/* line 265, style.scss */
 .nav .Lifestyle:hover {
   background-color: #53c2bc;
 }
 
-/* line 261, style.scss */
+/* line 269, style.scss */
 .nav .Events:hover {
   background-color: #00b26e;
 }
 
-/* line 265, style.scss */
+/* line 273, style.scss */
 .nav .Inspiration:hover {
   background-color: #f7be3c;
 }
 
-/* line 269, style.scss */
+/* line 277, style.scss */
 .nav .News {
   border-top: solid #372662;
   border-width: 7px 0 0  0;
 }
 
-/* line 273, style.scss */
+/* line 281, style.scss */
 .nav .Spotlight {
   border-top: solid #ed1457;
   border-width: 7px 0 0  0;
 }
 
-/* line 277, style.scss */
+/* line 285, style.scss */
 .nav .Opinion {
   border-top: solid #f7923f;
   border-width: 7px 0 0  0;
 }
 
-/* line 281, style.scss */
+/* line 289, style.scss */
 .nav .Lifestyle {
   border-top: solid #53c2bc;
   border-width: 7px 0 0  0;
 }
 
-/* line 285, style.scss */
+/* line 293, style.scss */
 .nav .Events {
   border-top: solid #00b26e;
   border-width: 7px 0 0  0;
 }
 
-/* line 289, style.scss */
+/* line 297, style.scss */
 .nav .Inspiration {
   border-top: solid #f7be3c;
   border-width: 7px 0 0  0;
 }
 
 /* FEATURE */
-/* line 295, style.scss */
+/* line 303, style.scss */
 #feature {
   width: 1870px;
   background-repeat: true;
 }
 
-/* line 307, style.scss */
+/* line 315, style.scss */
 #feature-title {
   padding: 50px 0 100px 85px;
   margin-bottom: 10px;
@@ -296,21 +304,21 @@ body {
   color: #fff;
 }
 
-/* line 316, style.scss */
+/* line 324, style.scss */
 #feature-title a {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
 }
 
-/* line 322, style.scss */
+/* line 330, style.scss */
 #feature-title p {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
 }
 
-/* line 329, style.scss */
+/* line 337, style.scss */
 #author {
   font-family: 'Helvetica';
   color: #6c7370;
@@ -319,14 +327,14 @@ body {
 }
 
 /* POST FEATURE */
-/* line 338, style.scss */
+/* line 346, style.scss */
 #post-wrapper {
   margin: 40px 0 0 45px;
   position: absolute;
   width: 1770px;
 }
 
-/* line 344, style.scss */
+/* line 352, style.scss */
 .post {
   float: left;
   padding-left: 40px;
@@ -334,19 +342,19 @@ body {
   width: 250px;
 }
 
-/* line 351, style.scss */
+/* line 359, style.scss */
 .post img {
   position: relative;
   width: 100%;
 }
 
-/* line 356, style.scss */
+/* line 364, style.scss */
 .post a {
   padding: 10px 0 5px 0;
   text-decoration: none;
 }
 
-/* line 361, style.scss */
+/* line 369, style.scss */
 .author {
   font-family: 'Helvetica';
   color: #39393a;
@@ -354,7 +362,7 @@ body {
   text-transform: uppercase;
 }
 
-/* line 368, style.scss */
+/* line 376, style.scss */
 div.post p {
   font-family: 'Helvetica';
   color: #939597;
@@ -364,7 +372,7 @@ div.post p {
   margin: 5px 0 0 0;
 }
 
-/* line 378, style.scss */
+/* line 386, style.scss */
 .post:hover .bar.news {
   width: 210px;
   height: 15px;
@@ -373,7 +381,7 @@ div.post p {
   background-color: #372662;
 }
 
-/* line 382, style.scss */
+/* line 390, style.scss */
 .post:hover .bar.spotlight {
   width: 210px;
   height: 15px;
@@ -382,7 +390,7 @@ div.post p {
   background-color: #ed1457;
 }
 
-/* line 386, style.scss */
+/* line 394, style.scss */
 .post:hover .bar.opinion {
   width: 210px;
   height: 15px;
@@ -391,7 +399,7 @@ div.post p {
   background-color: #f7923f;
 }
 
-/* line 390, style.scss */
+/* line 398, style.scss */
 .post:hover .bar.lifestyle {
   width: 210px;
   height: 15px;
@@ -400,7 +408,7 @@ div.post p {
   background-color: #53c2bc;
 }
 
-/* line 394, style.scss */
+/* line 402, style.scss */
 .post:hover .bar.events {
   width: 210px;
   height: 15px;
@@ -409,7 +417,7 @@ div.post p {
   background-color: #00b26e;
 }
 
-/* line 398, style.scss */
+/* line 406, style.scss */
 .post:hover .bar.inspiration {
   width: 210px;
   height: 15px;
@@ -419,7 +427,7 @@ div.post p {
 }
 
 /* CONTENT */
-/* line 404, style.scss */
+/* line 412, style.scss */
 #content-feature {
   padding: 20px 40px 60px 85px;
   background-image: url(../images/wind-farm-purple.png);
@@ -427,12 +435,12 @@ div.post p {
   width: 2300px;
 }
 
-/* line 414, style.scss */
+/* line 422, style.scss */
 #content-feature-bg {
   height: 100px;
 }
 
-/* line 418, style.scss */
+/* line 426, style.scss */
 #quote {
   float: right;
   margin-right: 20%;
@@ -441,7 +449,7 @@ div.post p {
   color: #fff;
 }
 
-/* line 426, style.scss */
+/* line 434, style.scss */
 #content-feature-title {
   width: 500px;
   color: #372662;
@@ -449,7 +457,7 @@ div.post p {
   padding: 40px 0 50px 85px;
 }
 
-/* line 434, style.scss */
+/* line 442, style.scss */
 #content-author p {
   font-family: 'NeubauGrotesk-75Fett';
   font-size: 22px;
@@ -458,7 +466,7 @@ div.post p {
   position: relative;
 }
 
-/* line 442, style.scss */
+/* line 450, style.scss */
 #article:first-line {
   text-transform: uppercase;
   font-family: 'georgia';
@@ -466,13 +474,13 @@ div.post p {
   font-size: 15px;
 }
 
-/* line 450, style.scss */
+/* line 458, style.scss */
 #article {
   padding: 40px 30px 40px 0px;
   width: 2300px;
 }
 
-/* line 456, style.scss */
+/* line 464, style.scss */
 .columndemo {
   -moz-column-count: 4;
   -moz-column-gap: 30px;
@@ -483,7 +491,7 @@ div.post p {
   text-align: left;
 }
 
-/* line 470, style.scss */
+/* line 478, style.scss */
 #FooterWrapper {
   width: 100%;
   height: 40px;
@@ -496,7 +504,7 @@ div.post p {
   opacity: 0.8;
 }
 
-/* line 483, style.scss */
+/* line 491, style.scss */
 #FooterWrapper ul li {
   list-style: none;
   display: inline;
@@ -504,23 +512,23 @@ div.post p {
   font-size: 12px;
 }
 
-/* line 490, style.scss */
+/* line 498, style.scss */
 #FooterWrapper a {
   color: #939597;
   padding-right: 20px;
 }
 
-/* line 495, style.scss */
+/* line 503, style.scss */
 #FooterWrapper a:hover {
   color: #39393a;
 }
 
-/* line 499, style.scss */
+/* line 507, style.scss */
 #ArchiveContainer {
   margin: 25px 0 0 85px;
 }
 
-/* line 504, style.scss */
+/* line 512, style.scss */
 #ArchiveContent ul li {
   list-style: none;
   line-height: 40px;
@@ -530,14 +538,14 @@ div.post p {
   width: 1000px;
 }
 
-/* line 513, style.scss */
+/* line 521, style.scss */
 #ArchiveContent {
   font-family: Helvetica,Arial,sans-serif;
   color: #939597;
   font-size: 10px;
 }
 
-/* line 520, style.scss */
+/* line 528, style.scss */
 #ArchiveContent ul li a {
   position: relative;
   top: 50px;
@@ -547,17 +555,17 @@ div.post p {
   color: #FAFAFA;
 }
 
-/* line 549, style.scss */
+/* line 557, style.scss */
 #ArchiveContent ul li a:hover {
   color: #939597;
 }
 
-/* line 553, style.scss */
+/* line 561, style.scss */
 #ArchiveContent h5 {
   color: #39393a;
 }
 
-/* line 557, style.scss */
+/* line 565, style.scss */
 #s {
   min-height: 50px;
   min-width: 1000px;
@@ -571,58 +579,53 @@ div.post p {
   color: #939597;
 }
 
-/* line 569, style.scss */
+/* line 577, style.scss */
 #s:focus {
   outline: none;
 }
 
 /* SINGLE */
-/* line 577, style.scss */
+/* line 585, style.scss */
 .single {
   width: 500px;
 }
 
-/* line 581, style.scss */
+/* line 589, style.scss */
 #hero {
   position: relative;
 }
 
-/* line 585, style.scss */
+/* line 593, style.scss */
 #hero h1 {
   padding: 20px 0 30px 20px;
   color: white;
 }
 
-/* line 591, style.scss */
+/* line 599, style.scss */
 #title {
   background-color: #372662;
-  padding: 20px 20px 0 20px;
+  padding: 20px 0px 0 20px;
   width: 500px;
   margin-left: 85px;
   bottom: 0px;
   position: absolute;
 }
 
-/* line 601, style.scss */
+/*#posted img{
+
+	margin: 0px 20px 0 20px;
+	display:block; 
+	position:absolute;
+	margin-left: 40%;
+
+} */
+/* line 619, style.scss */
 #posted {
+  width: 500px;
   margin-left: 85px;
-  width: 1000px;
 }
 
-/* line 608, style.scss */
-#posted img {
-  margin: 0px 20px 0 20px;
-  display: block;
-  position: absolute;
-  margin-left: 40%;
-}
-
-/* line 616, style.scss */
-#posted {
-  width: 35%;
-}
-
-/* line 620, style.scss */
+/* line 625, style.scss */
 ​
 #posted p {
   margin-right: 200px;
@@ -631,35 +634,155 @@ div.post p {
   font-size: 14px;
 }
 
-/* #posted img{
-	margin-left: 500px;
-	position: absolute;
-	padding-left: 40px;
-} */
-/* line 634, style.scss */
+/* line 633, style.scss */
+#bottom-rule {
+  border: solid #372662;
+  border-width: 7px 0 0 0;
+  margin-left: 85px;
+  width: 500px;
+  margin: 20px 0 20px 85px;
+}
+
+/* line 641, style.scss */
+#articleauthor a {
+  color: black;
+}
+
+/* line 645, style.scss */
 #articleauthor {
   margin-top: 20px;
   margin-left: 85px;
+  width: 500px;
+  text-decoration: underline;
 }
 
-/* line 639, style.scss */
+/* line 653, style.scss */
+.comment {
+  list-style: none;
+  width: 500px;
+}
+
+/* line 658, style.scss */
+#comments_template ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 663, style.scss */
 blockquote p {
   font-family: 'NeubauGrotesk-75Fett';
   font-size: 27px;
   text-transform: uppercase;
 }
 
-/*
+/* line 669, style.scss */
 #mediaright {
-    
-   float: right;
-   margin-left: 500px;
-   position: absolute;
-   padding:10px;
-
+  margin: 0px 20px 0 20px;
+  display: block;
+  position: absolute;
+  margin-left: 40%;
 }
-*/
-/* line 656, style.scss */
+
+/* line 676, style.scss */
+.comment-author img {
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+
+/* line 683, style.scss */
+.comment-author {
+  width: 400px;
+  height: 50px;
+}
+
+/* line 688, style.scss */
+.comment {
+  width: 470px;
+}
+
+/* line 692, style.scss */
+.comment-body {
+  background-color: white;
+  padding: 20px 10px 0 10px;
+  margin-top: 10px;
+  border-top: dotted 1px;
+}
+
+/* line 700, style.scss */
+.comment-body p {
+  width: 400px;
+  float: left;
+  padding: 20px;
+  background-color: #FAFAFA;
+  margin: 0px;
+  margin-left: 40px;
+  position: relative;
+  border-left: 1px dotted;
+}
+
+/* line 711, style.scss */
 #comments_template {
-  padding-left: 85px;
+  margin-left: 85px;
+  padding: 0 10px 10px 10px;
+  width: 470px;
+  padding-bottom: 0px;
+  margin-bottom: 140px;
+}
+
+/* line 719, style.scss */
+.says {
+  float: left;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-left: 7px;
+}
+
+/* line 726, style.scss */
+.says a {
+  color: black;
+}
+
+/* line 730, style.scss */
+.fn {
+  float: left;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 20px;
+  font-style: normal;
+}
+
+/* line 738, style.scss */
+.fn a {
+  color: black;
+}
+
+/* line 742, style.scss */
+.comment-meta {
+  float: left;
+  margin-left: 50px;
+  position: relative;
+  z-index: 20;
+  bottom: 50px;
+}
+
+/* line 751, style.scss */
+.comment-meta a {
+  color: black;
+}
+
+/* line 756, style.scss */
+#galleria {
+  width: 700px;
+  height: 500px;
+  background: #fff;
+}
+
+/* line 762, style.scss */
+.rightcol {
+  margin: 0px 20px 0 20px;
+  display: block;
+  position: absolute;
+  margin-left: 35%;
+  margin-top: -60px;
 }
