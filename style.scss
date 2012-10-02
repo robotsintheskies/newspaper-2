@@ -177,6 +177,7 @@ margin: 0;
 #header{
 	height:175px;
 	width: 100%;
+
 }
 
 #title-rule{
@@ -509,13 +510,16 @@ div.post p{
 
 }
 
+/*ARCHIVES*/
+
 #ArchiveContent ul li{
 	list-style:none;
 	line-height:40px;
-	margin-bottom:50px;
-	background-color:red;
-	height:300px;
-	width:1000px;
+	margin-left:-40px;
+	margin-bottom:25px;
+	background-color:$lightergrey;
+	min-height:135;
+	width:1170;
 }
 
 #ArchiveContent {
@@ -529,30 +533,64 @@ div.post p{
 	position:relative;
 	top:50px;
 	left:50px;
-	font-family:"NeubauGrotesk-75Fett";
+	font-family:"NeubauGrotesk-65Halbfett";
 	font-size:50px;
 	color:#FAFAFA;
+	text-decoration:none;
+
 
 }
 
 #ArchiveContent ul li:nth-child(1){
+	background-color:#252525;
+}
 
-
+#ArchiveContent ul li:nth-child(1):hover{
+	background-color:#464646;
 }
 
 #ArchiveContent ul li:nth-child(2){
-	
+	background-color:#464646;
+}
+
+#ArchiveContent ul li:nth-child(2):hover{
+	background-color:#6b6b6b;
 
 }
 
 #ArchiveContent ul li:nth-child(3){
+	background-color:#6b6b6b;
+}
 
-
+#ArchiveContent ul li:nth-child(3):hover{
+	background-color:#989898;
 }
 
 #ArchiveContent ul li:nth-child(4){
+	background-color:#989898;
+}
+
+#ArchiveContent ul li:nth-child(4):hover{
+	background-color:#b6b6b6;
+}
+
+#ArchiveContent ul li:nth-child(5){
+	background-color:#b6b6b6;
+}
+
+#ArchiveContent ul li:nth-child(5):hover{
+	background-color:#d9d9d9;
+}
+
+#ArchiveContent ul li:nth-child(6){
+	background-color:#d9d9d9;
+}
+
+#ArchiveContent ul li:nth-child(6):hover{
+	background-color:$lightergrey;
 
 }
+
 
 #ArchiveContent ul li a:hover{
 	color:$lightergrey;
@@ -562,22 +600,140 @@ div.post p{
 	color:$darkergrey;
 }
 
+#ArchiveHeader{
+	float:left;
+	width:1170px;
+	height:50px;
+	margin-bottom:10px;
+}
+
+#ArchiveEntry{
+	width:400px;
+	height:50px;
+	float:left;
+}
+
+#ArchiveBoxes{
+	float:left;
+}
+
+
 #s{
-	min-height:50px;
-	min-width:1000px;
+	float:right;
+	height:50px;
+	width:500px;
+	padding-left:10px;
 	box-shadow:none;
 	border:none;
-/*	background-color:#FAFAFA;
-*/	font-family:Helvetica,Arial,sans-serif;
-	font-weight:bold;
-	font-size:48px;
-	color:$lightergrey
+	background-color:#FAFAFA;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:24px;
+	font-weight:lighter;
+	color:$lightergrey;
+	text-transform:lowercase;
+	text-align:left;
 }
 
 #s:focus{
 	outline:none;
 }
 
+/*FULL ARCHIVE*/
+
+#FullArchiveContainer{
+	margin:25px 0 0 85px;
+}
+
+#FullArchiveContent{
+}
+
+#FullArchiveContent ul li{
+	list-style:none;
+	line-height:40px;
+	float:left;
+
+}
+
+#FullArchiveContent ul li:hover{
+
+}
+
+#FullArchiveContent ul li a{
+	float:left;
+	text-align:center;
+	margin-right:25px;
+	margin-bottom:26px;
+	background-color:$lightergrey;
+	width:214px;
+	height:75px;
+	position:relative;
+	top:10px;
+	font-family:"NeubauGrotesk-55Normal";
+	font-size:16px;
+	color:#FAFAFA;
+	text-decoration:none;
+}
+
+#FullArchiveContent ul li a:hover{
+	color:$lightergrey;
+	background-color:$darkergrey;
+
+}
+
+#FullArchiveContent h5{
+	color:$darkergrey;
+}
+
+#FullArchiveHeader{
+	float:left;
+	width:1170px;
+	height:50px;
+	margin-bottom:10px;
+}
+
+#FullArchiveEntry{
+/*		background-color: red;
+*/	float:left;
+	width:500px;
+	height:50px;
+}
+
+
+#FullArchiveBoxes{
+	margin-top:25px;
+	float:left;
+	width:1170px;
+}
+
+
+
+/*MONTHLY ARCHIVE*/
+
+#MonthlyArchiveHeader{
+	margin-left:85px;
+	height:50px;
+	width:800px;
+/*	background-color: red;
+*/}
+
+#MonthlyArchiveContainer{
+	margin-top:25px;
+	margin-left:50px;
+	width:1170px;
+	height:300px;
+	float:left;	
+/*	background-color: red
+*/}
+
+#MonthlyArchiveArticle{
+	float:left;
+	margin-bottom:35px;
+	height:200px;
+}
+
+#MonthlyArchiveArticle h3{
+	font-size:18px;
+}
 
 
 /* SINGLE */
